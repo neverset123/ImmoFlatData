@@ -1,5 +1,8 @@
 ## run 
-http_proxy=  python scraper.py
+use python310
+```
+http_proxy=  python script/scraper.py
+```
 
 ## scrapy and playwright
 use scrapy and playwright
