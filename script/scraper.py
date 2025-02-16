@@ -11,8 +11,8 @@ import requests
 import time
 from seleniumbase import SB
 from bs4 import BeautifulSoup
-from selenium_recaptcha_solver import RecaptchaSolver
-from selenium.webdriver.common.by import By
+# from selenium_recaptcha_solver import RecaptchaSolver
+# from selenium.webdriver.common.by import By
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
