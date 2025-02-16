@@ -9,13 +9,13 @@ import logging
 import os
 import requests
 import time
-from seleniumbase import SB
+# from seleniumbase import SB
+from seleniumbase import Driver
 from bs4 import BeautifulSoup
 # from selenium_recaptcha_solver import RecaptchaSolver
 # from selenium.webdriver.common.by import By
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 def cal_stats(df: pd.DataFrame, config: dict):
     for col, formula in config.stat_cols.items():
         if col in df.columns:
@@ -27,14 +27,15 @@ def cal_stats(df: pd.DataFrame, config: dict):
 def captcha_check(html: str, driver: webdriver.Chrome):
     # solver = RecaptchaSolver(driver=driver)
     chaptcha_part = html.split(r"</title>")[0].split(r"<title>")[1]
-    if "Ich bin kein Roboter - ImmobilienScout24" in chaptcha_part:
+    if "Ich bin kein Roboter - ImmobilienScout24" in chaptcha_part or "Sign in to your account" in chaptcha_part:
         # recaptcha_iframe = driver.find_element(By.XPATH, '//iframe[@title="Ich bin kein Roboter - ImmobilienScout24"]')
         # solver.click_recaptcha_v2(iframe=recaptcha_iframe)
-        input("Please solve the captcha and choose cookies settings. Then press any key to continue.")
-        logging.info("waiting for captcha solved...")
+        # input("Please solve the captcha or login. Then press any key to continue.")
+        logging.info("waiting for captcha to be solved...")
         return False
     else: 
         return True
+
 
 def cast_data(df: pd.DataFrame, config: dict):
     if hasattr(config, "cast"):
@@ -119,7 +120,9 @@ def scraping():
     # options.add_argument("--ignore-ssl-errors")
     # driver = webdriver.Chrome(options=options)
 
-    with SB(uc=True, headed=True) as driver:
+    # with SB(uc=True, headed=True) as driver:
+    with Driver(browser="chrome", uc=True, headless=False) as driver:
+        # input("changing setting...")
         try:
             for city in cities:
                 result_file = f"{configs.out_dir}{city}_{datetime.now().strftime('%Y%m%d')}.csv"
@@ -144,7 +147,7 @@ def scraping():
                             WebDriverWait(driver, 10)
                         exposes = parse_expose_link(html=html_page)
                         logging.info(f"number of exposes on page {i}: " + str(len(exposes)))
-                        for expose in exposes:
+                        for index, expose in enumerate(exposes):
                             expose_id = expose.split("/")[-1]
                             logging.info(f"extracting data from expose {expose_id}")
                             sub_url = f"https://www.immobilienscout24.de{expose}"
@@ -156,7 +159,13 @@ def scraping():
                                 html_expose = driver.get_page_source()
                                 if captcha_check(html_expose, driver):                
                                     break
-                                WebDriverWait(driver, 10)
+                                time.sleep(1)
+                                WebDriverWait(driver, 20).until(lambda d: d.execute_script("return document.readyState") == "complete")
+                            ####
+                            # file_path = f"output_{index}.txt"
+                            # with open(file_path, 'w') as file:
+                            #     file.write(html_expose)
+                            ####
                             expose_json = html_expose.split("keyValues = ")[1].split(r"};")[0] + r'}'
                             online_since = html_expose.split('exposeOnlineSince: "')[1].split(r'",')[0]
                             # title = html_expose.split(r"</title>")[0].split(r"<title>")[1]
