@@ -121,7 +121,7 @@ def scraping():
     # driver = webdriver.Chrome(options=options)
 
     # with SB(uc=True, headed=True) as driver:
-    with Driver(browser="chrome", uc=True, headless=False) as driver:
+    with Driver(browser="chrome", uc=True, headless=True) as driver:
         # input("changing setting...")
         try:
             for city in cities:
