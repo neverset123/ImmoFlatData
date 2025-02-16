@@ -131,8 +131,8 @@ def scraping():
                     number_of_pages = get_pages_number(driver=driver, url=url)
                     logging.info(f"number of page in {url}: {number_of_pages}")
                     for i in range(1, number_of_pages + 1):
-                        if i == 2:  # for test purposes
-                            break
+                        # if i == 2:  # for test purposes
+                        #     break
                         logging.info(f"reading page: {i}")
                         if i == 1:
                             driver.get(f"{url}")
