@@ -53,11 +53,11 @@ def get_pages_number(driver: webdriver.Chrome, url: str):
         driver.get(url)
         WebDriverWait(driver, 20).until(lambda d: d.execute_script("return document.readyState") == "complete")
         for _ in range(5):
-            WebDriverWait(driver, 10)
             # html = driver.page_source
             html = driver.get_page_source()
-            if captcha_check(html, driver):         
+            if captcha_check(html, driver):       
                 break
+            WebDriverWait(driver, 10)
         soup = BeautifulSoup(html, 'html.parser')
         pagination_buttons = soup.find_all(class_="Pagination_pagination-button__FFMlW")
         num_page = 1
@@ -135,29 +135,28 @@ def scraping():
                             driver.get(f"{url}")
                         else:
                             driver.get(f"{url}{i}")
+                        WebDriverWait(driver, 20).until(lambda d: d.execute_script("return document.readyState") == "complete")
                         for _ in range(5):
-                            WebDriverWait(driver, 10)
                             # html_page = driver.page_source
                             html_page = driver.get_page_source()
                             if captcha_check(html_page, driver):
                                 break
+                            WebDriverWait(driver, 10)
                         exposes = parse_expose_link(html=html_page)
                         logging.info(f"number of exposes on page {i}: " + str(len(exposes)))
                         for expose in exposes:
+                            expose_id = expose.split("/")[-1]
+                            logging.info(f"extracting data from expose {expose_id}")
                             sub_url = f"https://www.immobilienscout24.de{expose}"
-                            # expose_id = expose.split("/")[-1]
                             # save_all_images(expose_id)
                             driver.get(sub_url)
                             WebDriverWait(driver, 20).until(lambda d: d.execute_script("return document.readyState") == "complete")
-                            html_expose = driver.get_page_source()
-                            # for _ in range(5):
-                            #     WebDriverWait(driver, 200)
-                            #     # html_expose = driver.page_source
-                            #     html_expose = driver.get_page_source()
-                            #     if captcha_check(html_expose, driver):                
-                            #         break
-                            time.sleep(10)
-                            html_expose = driver.get_page_source()
+                            for _ in range(5):
+                                # html_expose = driver.page_source
+                                html_expose = driver.get_page_source()
+                                if captcha_check(html_expose, driver):                
+                                    break
+                                WebDriverWait(driver, 10)
                             expose_json = html_expose.split("keyValues = ")[1].split(r"};")[0] + r'}'
                             online_since = html_expose.split('exposeOnlineSince: "')[1].split(r'",')[0]
                             # title = html_expose.split(r"</title>")[0].split(r"<title>")[1]
