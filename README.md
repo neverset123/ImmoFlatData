@@ -3,6 +3,8 @@ use python310
 ```
 http_proxy=  python script/scraper.py
 ```
+## Visualize
+Go to the Flat Viewer URL for your repository: all you need to do to go to the Flat Viewer is change the domain of your repository from “github.com” to “flatgithub.com”.
 
 ## scrapy and playwright
 use scrapy and playwright
