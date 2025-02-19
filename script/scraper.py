@@ -125,7 +125,7 @@ def scraping():
         # input("changing setting...")
         try:
             for city in cities:
-                result_file = f"{configs.out_dir}{city}_{datetime.now().strftime('%Y%m%d')}.csv"
+                result_file = f"{configs.out_dir}{city}.csv"
                 df_city = pd.DataFrame()
                 for url in cities[city]:
                     number_of_pages = get_pages_number(driver=driver, url=url)
@@ -193,7 +193,8 @@ def scraping():
                 df_city.drop_duplicates(subset="url", inplace=True, keep="last")
                 df_city = cast_data(df=df_city, config=configs)
                 df_city = cal_stats(df=df_city, config=configs)
-                df_city.to_csv(result_file, index=False)
+                if not df_city.empty:
+                    df_city.to_csv(result_file, index=False)
         except Exception as e:
             logging.error(f"error occurred during scraping: {e}.")
 
