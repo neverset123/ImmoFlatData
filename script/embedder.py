@@ -15,7 +15,21 @@ func = (get_registry()
         .get("openai")
         .create(name=os.getenv("EMBEDDING_MODEL"), use_azure=True))
 class Listing(LanceModel):
+    obj_scoutId: int
+    title: str
+    obj_purchasePrice: int
     description: str = func.SourceField()
+    obj_immotype: str
+    obj_privateOffer: bool
+    online_since: str
+    obj_energyType: str
+    obj_firingTypes: str
+    obj_telekomInternetSpeed: str
+    obj_rented: str
+    url: str
+    geo_bg: str
+    obj_usableArea: float
+    obj_yearConstructed: int
     vector: Vector(func.ndims()) = func.VectorField()
 
 def text2vec(df, db_name):
@@ -25,13 +39,23 @@ def text2vec(df, db_name):
                             mode="overwrite",
                             on_bad_vectors="fill",
                             fill_value="")
-    table.add(df.fillna("").to_dict("records"))
+    table.add(df.to_dict("records"))
     print(table.head().to_pandas())
 
 if __name__ == "__main__":
     db_name = "./lancedb"
-    selected_cols = ["description"]
+    default_fill_values = {
+        'int': 0,          # Fill NaN with 0 for integer columns
+        'float': 0.0,  # Fill NaN with 0.0 for float columns
+        'object': '',      # Fill NaN with empty string for string columns
+        'bool': False      # Fill NaN with False for boolean columns
+    }
+    selected_cols = ["obj_scoutId", "title", "obj_purchasePrice", "description", "obj_immotype", "obj_privateOffer", "online_since", "obj_energyType", "obj_firingTypes", "obj_telekomInternetSpeed", "obj_rented", "url", "geo_bg", "obj_usableArea", "obj_yearConstructed"]
     for city in configs.urls:
         file_path = f"{configs.out_dir}{city}.csv"
-        df = pd.read_csv(file_path, usecols=selected_cols, nrows=100).drop_duplicates() # test on first 10 rows
+        df = pd.read_csv(file_path, usecols=selected_cols, nrows=100).drop_duplicates()
+        df[df.select_dtypes(include=['int']).columns] = df.select_dtypes(include=['int']).fillna(default_fill_values['int'])
+        df[df.select_dtypes(include=['float']).columns] = df.select_dtypes(include=['float']).fillna(default_fill_values['float'])
+        df[df.select_dtypes(include=['object']).columns] = df.select_dtypes(include=['object']).fillna(default_fill_values['object'])
+        df[df.select_dtypes(include=['bool']).columns] = df.select_dtypes(include=['bool']).fillna(default_fill_values['bool'])
         text2vec(df, db_name)
