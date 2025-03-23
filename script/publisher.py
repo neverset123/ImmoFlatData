@@ -5,6 +5,9 @@ from lancedb.pydantic import LanceModel, Vector
 import pandas as pd
 import openai
 import os
+import json
+import pandas as pd
+import notion_df
 
 load_dotenv()
 os.environ["OPENAI_API_VERSION"] = os.getenv("API_VERSION")
@@ -61,7 +64,33 @@ def find_match(df):
     df_matched = table.search(preference_embedded).metric("cosine").limit(5).where("description!=''", prefilter=True).to_pandas()
     return df_matched
 
-
+# There is still an pydantic version issue
+def update_property(df_matched, page_url, api_key):
+    notion_df.pandas()
+    # df = pd.read_notion(page_url, api_key=api_key)
+    # print(df.loc[0,"Summary"])
+    # print(df.loc[0, "Included utilities label"])
+    df = (df_matched.rename(columns={"obj_privateOffer":"Private Offer",
+                            "obj_firingTypes":"Firing Type",
+                            "obj_rented":"Rented",
+                            "geo_bg":"Location",
+                            "url":"Link",
+                            "obj_immotype":"Property Type",
+                            "obj_purchasePrice":"Purchase Price",
+                            "obj_yearConstructed":"Construction Year",
+                            "obj_telekomInternetSpeed":"Internet Speed",
+                            "obj_energyType":"Energy Type",
+                            "obj_usableArea":"Property Size",
+                            "online_since":"Online Date",
+                            "title":"Title"
+                            })
+                    [['Title', 'Purchase Price', 'Property Type', 'Private Offer', 'Online Date', 'Energy Type', 'Firing Type', 'Internet Speed', 'Rented', 'Link', 'Location', 'Property Size', 'Construction Year']]
+                    )
+    df["Title"] = df["Title"].astype("str")
+    df["Person"] = "1a4d872b-594c-8186-ac25-0002808c107a"
+    df["Online Date"] = pd.to_datetime(df["Online Date"])
+    page_url = "https://www.notion.so/1bfb0157974680709c7ffd2675184eba?v=1bfb01579746810d8e5b000cae81f18b"
+    df.to_notion(page_url, api_key=api_key)
 
 if __name__ == "__main__":
     # pd.set_option('display.max_rows', None)
@@ -72,10 +101,14 @@ if __name__ == "__main__":
     load_dotenv()
     NOTION_TOKEN = os.getenv("NOTION_TOKEN")
     DB_PREFERENCE_ID = os.getenv("DB_PREFERENCE_ID")
+    DB_PROPERTY_ID = os.getenv("DB_PROPERTY_ID")
+    page_url = os.getenv("DB_PROPERTY_PAGE_URL")
     notion = Client(auth=NOTION_TOKEN)
-    df = get_preference(notion, DB_PREFERENCE_ID)
-    # save_preference(df, db_name)
-    df_matched = find_match(df)
-    print(df_matched)
+    # df = get_preference(notion, DB_PREFERENCE_ID)
+    # # save_preference(df, db_name)
+    # df_matched = find_match(df)
+    # print(df_matched)
+    df_matched = pd.read_parquet("./test.parquet")
+    update_property(df_matched, page_url, NOTION_TOKEN)
 
 
