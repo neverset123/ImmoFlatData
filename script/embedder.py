@@ -2,12 +2,9 @@ import os
 import lancedb
 from lancedb.pydantic import LanceModel, Vector
 from lancedb.embeddings import get_registry
-from lancedb.embeddings import with_embeddings
-from openai import AzureOpenAI
 from dotenv import load_dotenv
 import pandas as pd
 from config import configs
-import numpy as np
 
 load_dotenv()
 os.environ["OPENAI_API_VERSION"] = os.getenv("API_VERSION")
