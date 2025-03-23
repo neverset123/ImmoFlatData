@@ -2,3 +2,6 @@ openpyxl
 pandas
 selenium
 seleniumbase
+notion-client
+openai
+lancedb
