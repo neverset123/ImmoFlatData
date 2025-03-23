@@ -33,5 +33,5 @@ if __name__ == "__main__":
     selected_cols = ["description"]
     for city in configs.urls:
         file_path = f"{configs.out_dir}{city}.csv"
-        df = pd.read_csv(file_path, usecols=selected_cols, nrows=100) # test on first 10 rows
+        df = pd.read_csv(file_path, usecols=selected_cols, nrows=100).drop_duplicates() # test on first 10 rows
         text2vec(df, db_name)
