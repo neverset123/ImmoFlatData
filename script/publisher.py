@@ -64,28 +64,55 @@ def find_match(df):
     df_matched = table.search(preference_embedded).metric("cosine").limit(5).where("description!=''", prefilter=True).to_pandas()
     return df_matched
 
-# There is still an pydantic version issue
+def update_db_property_type(api_key, db_id, target_type = "rich_text"):
+    import requests
+    import json
+
+    db_id="1bfb0157974680709c7ffd2675184eba"
+    url = f"https://api.notion.com/v1/databases/{db_id}"
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+        "Notion-Version": "2022-06-28"
+    }
+    payload = {
+        "properties": {
+            "Cover image": {
+                "type": target_type, 
+                "rich_text": {}
+            }
+        }
+    }
+    response = requests.patch(url, headers=headers, data=json.dumps(payload))
+    if response.status_code == 200:
+        print("Database property updated successfully!")
+    else:
+        print(f"Failed to update database property: {response.status_code}")
+
 def update_property(df_matched, page_url, api_key):
     notion_df.pandas()
     # df = pd.read_notion(page_url, api_key=api_key)
     # print(df.loc[0,"Summary"])
     # print(df.loc[0, "Included utilities label"])
     df = (df_matched.rename(columns={"obj_privateOffer":"Private Offer",
+                            "obj_picture":"Cover image",
                             "obj_firingTypes":"Firing Type",
                             "obj_rented":"Rented",
                             "geo_bg":"Location",
                             "url":"Link",
-                            "obj_immotype":"Property Type",
+                            "obj_typeOfFlat":"Property Type",
                             "obj_purchasePrice":"Purchase Price",
                             "obj_yearConstructed":"Construction Year",
                             "obj_telekomInternetSpeed":"Internet Speed",
-                            "obj_energyType":"Energy Type",
+                            "obj_energyEfficiencyClass":"Energy Class",
                             "obj_usableArea":"Property Size",
                             "online_since":"Online Date",
-                            "title":"Title"
+                            "title":"Title",
+                            "obj_condition":"Property Condition"
                             })
-                    [['Title', 'Purchase Price', 'Property Type', 'Private Offer', 'Online Date', 'Energy Type', 'Firing Type', 'Internet Speed', 'Rented', 'Link', 'Location', 'Property Size', 'Construction Year']]
+                    [['Title', 'Purchase Price', 'Property Type', 'Private Offer', "Cover image", 'Property Condition', 'Online Date', 'Energy Class', 'Firing Type', 'Internet Speed', 'Rented', 'Link', 'Location', 'Property Size', 'Construction Year']]
                     )
+    # df["Cover image"] = df["Cover image"].apply(lambda x: "'"+x+"'")
     df["Title"] = df["Title"].astype("str")
     df["Person"] = "1a4d872b-594c-8186-ac25-0002808c107a"
     df["Online Date"] = pd.to_datetime(df["Online Date"])
@@ -109,6 +136,7 @@ if __name__ == "__main__":
     # df_matched = find_match(df)
     # print(df_matched)
     df_matched = pd.read_parquet("./test.parquet")
+    # update_db_property_type(NOTION_TOKEN, DB_PREFERENCE_ID)
     update_property(df_matched, page_url, NOTION_TOKEN)
 
 
