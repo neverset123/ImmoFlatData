@@ -1,13 +1,14 @@
 from notion_client import Client
 from dotenv import load_dotenv
 import lancedb
-from lancedb.pydantic import LanceModel, Vector
+from lancedb.pydantic import LanceModel
 import pandas as pd
 import openai
 import os
-import json
 import pandas as pd
 import notion_df
+import requests
+import json
 
 load_dotenv()
 os.environ["OPENAI_API_VERSION"] = os.getenv("API_VERSION")
@@ -47,8 +48,7 @@ def save_preference(df, db_name):
                             on_bad_vectors="fill",
                             fill_value="")
     table.add(df.fillna("").to_dict("records"))
-    print(table.head().to_pandas())
-
+    # print(table.head().to_pandas())
 
 def embed_func(c): 
     client = openai.AzureOpenAI()   
@@ -61,14 +61,10 @@ def find_match(df):
     table = db.open_table(table_name)
     preference_text = " ".join(df["user_input"].tolist())
     preference_embedded = embed_func(preference_text)[0]
-    df_matched = table.search(preference_embedded).metric("cosine").limit(5).where("description!=''", prefilter=True).to_pandas()
+    df_matched = table.search(preference_embedded).metric("cosine").limit(10).where("description!=''", prefilter=True).to_pandas()
     return df_matched
 
-def update_db_property_type(api_key, db_id, target_type = "rich_text"):
-    import requests
-    import json
-
-    db_id="1bfb0157974680709c7ffd2675184eba"
+def update_db_property_type(api_key, db_id, target_col="Cover image", target_type = "rich_text"):
     url = f"https://api.notion.com/v1/databases/{db_id}"
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -77,9 +73,9 @@ def update_db_property_type(api_key, db_id, target_type = "rich_text"):
     }
     payload = {
         "properties": {
-            "Cover image": {
+            target_col: {
                 "type": target_type, 
-                "rich_text": {}
+                target_type: {}
             }
         }
     }
@@ -91,9 +87,6 @@ def update_db_property_type(api_key, db_id, target_type = "rich_text"):
 
 def update_property(df_matched, page_url, api_key):
     notion_df.pandas()
-    # df = pd.read_notion(page_url, api_key=api_key)
-    # print(df.loc[0,"Summary"])
-    # print(df.loc[0, "Included utilities label"])
     df = (df_matched.rename(columns={"obj_privateOffer":"Private Offer",
                             "obj_picture":"Cover image",
                             "obj_firingTypes":"Firing Type",
@@ -116,7 +109,6 @@ def update_property(df_matched, page_url, api_key):
     df["Title"] = df["Title"].astype("str")
     df["Person"] = "1a4d872b-594c-8186-ac25-0002808c107a"
     df["Online Date"] = pd.to_datetime(df["Online Date"])
-    page_url = "https://www.notion.so/1bfb0157974680709c7ffd2675184eba?v=1bfb01579746810d8e5b000cae81f18b"
     df.to_notion(page_url, api_key=api_key)
 
 if __name__ == "__main__":
@@ -131,12 +123,10 @@ if __name__ == "__main__":
     DB_PROPERTY_ID = os.getenv("DB_PROPERTY_ID")
     page_url = os.getenv("DB_PROPERTY_PAGE_URL")
     notion = Client(auth=NOTION_TOKEN)
-    # df = get_preference(notion, DB_PREFERENCE_ID)
-    # # save_preference(df, db_name)
-    # df_matched = find_match(df)
-    # print(df_matched)
-    df_matched = pd.read_parquet("./test.parquet")
-    # update_db_property_type(NOTION_TOKEN, DB_PREFERENCE_ID)
+    df = get_preference(notion, DB_PREFERENCE_ID)
+    df_matched = find_match(df)
+    update_db_property_type(NOTION_TOKEN, DB_PROPERTY_ID, target_type="rich_text")
     update_property(df_matched, page_url, NOTION_TOKEN)
+    update_db_property_type(NOTION_TOKEN, DB_PROPERTY_ID, target_type="files")
 
 
