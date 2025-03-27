@@ -5,4 +5,5 @@ seleniumbase
 notion-client
 openai
 lancedb
+numpy==1.26.4
 script/libs/notion_df-0.0.5-py3-none-any.whl
