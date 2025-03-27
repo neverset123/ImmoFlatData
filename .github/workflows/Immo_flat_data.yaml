@@ -23,15 +23,31 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r script/requirements.txt
-      - name: Fetch data
-        run: |
-          python script/scraper.py
-      - name: Commit and push changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data
-          git commit -m "Automated data update"
-          git push
+      # - name: Fetch data
+      #   run: |
+      #     python script/scraper.py
+      # - name: Commit and push data
+      #   run: |
+      #     git config --global user.name 'github-actions[bot]'
+      #     git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+      #     git add data
+      #     git commit -m "Automated data update"
+      #     git push
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: publish data
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONPATH: ${{ github.workspace }}
+          ENDPOINT: ${{ secrets.ENDPOINT }} 
+          APIKEY: ${{ secrets.APIKEY }} 
+          CHAT_MODEL: ${{ secrets.CHAT_MODEL }} 
+          EMBEDDING_MODEL: ${{ secrets.EMBEDDING_MODEL }} 
+          API_VERSION: ${{ secrets.API_VERSION }} 
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }} 
+          HOME_PAGE_ID: ${{ secrets.HOME_PAGE_ID }} 
+          DB_PREFERENCE_ID: ${{ secrets.DB_PREFERENCE_ID }} 
+          DB_PROPERTY_ID: ${{ secrets.DB_PROPERTY_ID }} 
+          DB_PROPERTY_PAGE_URL: ${{ secrets.DB_PROPERTY_PAGE_URL }} 
+        run: |
+          python script/embedder.py
+          python script/publisher.py
