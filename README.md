@@ -25,7 +25,10 @@ http_proxy=  python script/scraper.py
 ```
 
 ## Visualize
+### Backend Data
 [Go to the Flat Viewer URL for data](https://flatgithub.com/neverset123/ImmoFlatData)
+### Notion UI
+[Get you own recommendation with Notion](https://www.notion.so/Immobilien-Recommender-1a9b015797468066be88c216eccc7ecf)
 
 
 ## others
