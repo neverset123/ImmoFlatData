@@ -105,10 +105,10 @@ def update_property(df_matched, page_url, api_key):
                             })
                     [['Title', 'Purchase Price', 'Property Type', 'Private Offer', "Cover image", 'Property Condition', 'Online Date', 'Energy Class', 'Firing Type', 'Internet Speed', 'Rented', 'Link', 'Location', 'Property Size', 'Construction Year']]
                     )
-    # df["Cover image"] = df["Cover image"].apply(lambda x: "'"+x+"'")
     df["Title"] = df["Title"].astype("str")
     df["Person"] = "1a4d872b-594c-8186-ac25-0002808c107a"
     df["Online Date"] = pd.to_datetime(df["Online Date"])
+    df["Rented"] = df["Rented"].apply(lambda x: True if x =="y" else False)
     df.to_notion(page_url, api_key=api_key)
 
 if __name__ == "__main__":
