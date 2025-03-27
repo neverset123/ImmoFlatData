@@ -23,18 +23,19 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r script/requirements.txt
-      # - name: Fetch data
-      #   run: |
-      #     python script/scraper.py
-      # - name: Commit and push data
-      #   run: |
-      #     git config --global user.name 'github-actions[bot]'
-      #     git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-      #     git add data
-      #     git commit -m "Automated data update"
-      #     git push
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch data
+        run: |
+          python script/scraper.py
+      - name: Commit and push data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data
+          git commit -m "Automated data update"
+          git push
       - name: publish data
         env:
           PYTHONPATH: ${{ github.workspace }}
