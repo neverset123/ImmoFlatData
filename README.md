@@ -1,37 +1,31 @@
-## Immobilien Data Fetching to Flat Data Structure
-
+## ImmoFlatData
 This project is designed to fetch Immobilien (real estate) data from a given source (e.g., a web API or website) and convert it into a flat data structure for easier manipulation and further analysis, reporting, or storage.
 The system handles data extraction, transformation, and flattening of complex hierarchical structures into a tabular format, which is ideal for integration into data warehouses, spreadsheets, or databases.
+The recommender provides personalize property suggestions by analyzing buyer preferences, needs, and market trends through natural language understanding and advanced data processing.
 
-## Features
+### Features
 - **Data Fetching**: Fetches real estate data from multiple sources, such as APIs or web scraping.
 - **Data Transformation**: Transforms complex nested JSON or XML data into a simplified flat structure.
 - **Flat Data Structure**: Outputs data in a tabular format (e.g., CSV, JSON, or database-friendly format).
-- **Flexible Configuration**: Easily configurable to support various real estate APIs or websites.
-- **Error Handling**: Includes error handling to ensure robust data fetching, such as retries on failed requests and logging errors for debugging.
+- **Personalized Recommendation**: individual investment recommandation in terms of real estate property
 
-## Installation
-To get started, clone this repository and install the necessary dependencies:
-
+### Installation
 Python 3.10+
 ```bash
 pip install -r script/requirements.txt
+http_proxy=  python script/fetcher.py
+http_proxy=  python script/embedder.py
+http_proxy=  python script/publisher.py
 ```
 
-## Usage
-Run the scraper.py script to fetch data from the source and convert it into a flat structure. This will fetch the Immobilien data, process it, and save it in the specified output format (e.g., CSV ).
-```bash
-http_proxy=  python script/scraper.py
-```
-
-## Visualize
-### Backend Data
-[Go to the Flat Viewer URL for data](https://flatgithub.com/neverset123/ImmoFlatData)
-### Notion UI
-[Get you own recommendation with Notion](https://www.notion.so/Immobilien-Recommender-1a9b015797468066be88c216eccc7ecf)
+### Visualize
+#### Backend Data
+[Flat Viewer](https://flatgithub.com/neverset123/ImmoFlatData)
+#### Frontend UI
+[recommendation UI](https://www.notion.so/Immobilien-Recommender-1a9b015797468066be88c216eccc7ecf)
 
 
-## others
+## Misc
 scraping discord: https://discord.com/channels/737009125862408274/774298515123208233/1331328539785429055
 https://github.com/lavague-ai/LaVague
 https://www.youtube.com/watch?v=QxHE4af5BQE
