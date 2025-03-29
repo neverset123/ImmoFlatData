@@ -85,6 +85,28 @@ def update_db_property_type(api_key, db_id, target_col="Cover image", target_typ
     else:
         print(f"Failed to update database property: {response.status_code}")
 
+def clear_db_data(api_key, db_id):
+    query_url = f"https://api.notion.com/v1/databases/{db_id}/query"
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+        "Notion-Version": "2022-06-28"
+    }
+    response = requests.post(query_url, headers=headers)
+    data = response.json()
+    for row in data["results"]:
+        page_id = row["id"]
+        update_url = f"https://api.notion.com/v1/pages/{page_id}"
+        payload = {
+            "archived": True
+        }
+        update_response = requests.patch(update_url, headers=headers, json=payload)
+        if update_response.status_code == 200:
+            print(f"Successfully archived for page {page_id}")
+        else:
+            print(f"Failed to archive page {page_id}: {update_response.status_code}")
+            print(update_response.json())
+
 def update_property(df_matched, page_url, api_key):
     notion_df.pandas()
     df = (df_matched.rename(columns={"obj_privateOffer":"Private Offer",
@@ -125,6 +147,7 @@ if __name__ == "__main__":
     notion = Client(auth=NOTION_TOKEN)
     df = get_preference(notion, DB_PREFERENCE_ID)
     df_matched = find_match(df)
+    clear_db_data(NOTION_TOKEN, DB_PROPERTY_ID)
     update_db_property_type(NOTION_TOKEN, DB_PROPERTY_ID, target_type="rich_text")
     update_property(df_matched, page_url, NOTION_TOKEN)
     update_db_property_type(NOTION_TOKEN, DB_PROPERTY_ID, target_type="files")
