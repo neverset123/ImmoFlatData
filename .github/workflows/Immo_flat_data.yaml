@@ -25,7 +25,7 @@ jobs:
           pip install -r script/requirements.txt
       - name: Fetch data
         run: |
-          python script/scraper.py
+          python script/fetcher.py
       - name: Commit and push data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
