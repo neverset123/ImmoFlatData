@@ -42,16 +42,16 @@ def get_preference(notion, db_id):
 
 def save_preference(df, db_name):
     db = lancedb.connect(db_name)
-    table = db.create_table("preference", 
-                            schema=Preference, 
+    table = db.create_table("preference",
+                            schema=Preference,
                             mode="overwrite",
                             on_bad_vectors="fill",
                             fill_value="")
     table.add(df.fillna("").to_dict("records"))
     # print(table.head().to_pandas())
 
-def embed_func(c): 
-    client = openai.AzureOpenAI()   
+def embed_func(c):
+    client = openai.AzureOpenAI()
     response = client.embeddings.create(input=c, model=os.getenv("EMBEDDING_MODEL"))
     return [data.embedding for data in response.data]
 
@@ -88,7 +88,7 @@ def update_db_property_type(api_key, db_id, target_col="Cover image", target_typ
     payload = {
         "properties": {
             target_col: {
-                "type": target_type, 
+                "type": target_type,
                 target_type: {}
             }
         }
@@ -109,6 +109,8 @@ def clear_db_data(api_key, db_id):
     response = requests.post(query_url, headers=headers)
     data = response.json()
     for row in data["results"]:
+        # if row["properties"]["Acquisition"]["select"] is not None: # keep item that is in purchase process
+        #     continue
         page_id = row["id"]
         update_url = f"https://api.notion.com/v1/pages/{page_id}"
         payload = {
