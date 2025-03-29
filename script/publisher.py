@@ -59,10 +59,24 @@ def find_match(df):
     db = lancedb.connect("./lancedb")
     table_name = "property_listing"
     table = db.open_table(table_name)
-    preference_text = " ".join(df["user_input"].tolist())
-    preference_embedded = embed_func(preference_text)[0]
-    df_matched = table.search(preference_embedded).metric("cosine").limit(10).where("description!=''", prefilter=True).to_pandas()
-    return df_matched
+    df_list = []
+    for user_id in df["user_id"].unique():
+        preference_text = " ".join(df[df["user_id"]==user_id]["user_input"].tolist())
+        preference_embedded = embed_func(preference_text)[0]
+        df_matched = table.search(preference_embedded).metric("cosine").limit(10).where("description!=''", prefilter=True).to_pandas()
+        df_matched["Person"] = user_id
+        df_list.append(df_matched)
+    df_combined = pd.concat(df_list)
+    df_result = (df_combined.groupby(['obj_scoutId', 'title', 'obj_purchasePrice', 'description',
+                                    'obj_typeOfFlat', 'obj_privateOffer', 'obj_condition', 'online_since',
+                                    'obj_energyEfficiencyClass', 'obj_firingTypes',
+                                    'obj_telekomInternetSpeed', 'obj_rented', 'url', 'geo_bg',
+                                    'obj_usableArea', 'obj_yearConstructed', 'obj_picture'], as_index=False)
+                            .agg({
+                                "Person":list
+                            })
+                )
+    return df_result
 
 def update_db_property_type(api_key, db_id, target_col="Cover image", target_type = "rich_text"):
     url = f"https://api.notion.com/v1/databases/{db_id}"
@@ -107,7 +121,7 @@ def clear_db_data(api_key, db_id):
             print(f"Failed to archive page {page_id}: {update_response.status_code}")
             print(update_response.json())
 
-def update_property(df_matched, page_url, api_key):
+def update_db(df_matched, page_url, api_key):
     notion_df.pandas()
     df = (df_matched.rename(columns={"obj_privateOffer":"Private Offer",
                             "obj_picture":"Cover image",
@@ -125,10 +139,9 @@ def update_property(df_matched, page_url, api_key):
                             "title":"Title",
                             "obj_condition":"Property Condition"
                             })
-                    [['Title', 'Purchase Price', 'Property Type', 'Private Offer', "Cover image", 'Property Condition', 'Online Date', 'Energy Class', 'Firing Type', 'Internet Speed', 'Rented', 'Link', 'Location', 'Property Size', 'Construction Year']]
+                    [['Title', 'Purchase Price', 'Property Type', 'Private Offer', "Cover image", 'Property Condition', 'Online Date', 'Energy Class', 'Firing Type', 'Internet Speed', 'Rented', 'Link', 'Location', 'Property Size', 'Construction Year', 'Person']]
                     )
     df["Title"] = df["Title"].astype("str")
-    df["Person"] = "1a4d872b-594c-8186-ac25-0002808c107a"
     df["Online Date"] = pd.to_datetime(df["Online Date"])
     df["Rented"] = df["Rented"].apply(lambda x: True if x =="y" else False)
     df.to_notion(page_url, api_key=api_key)
@@ -145,11 +158,11 @@ if __name__ == "__main__":
     DB_PROPERTY_ID = os.getenv("DB_PROPERTY_ID")
     page_url = os.getenv("DB_PROPERTY_PAGE_URL")
     notion = Client(auth=NOTION_TOKEN)
-    df = get_preference(notion, DB_PREFERENCE_ID)
-    df_matched = find_match(df)
+    df_pref = get_preference(notion, DB_PREFERENCE_ID)
+    df_matched = find_match(df_pref)
     clear_db_data(NOTION_TOKEN, DB_PROPERTY_ID)
     update_db_property_type(NOTION_TOKEN, DB_PROPERTY_ID, target_type="rich_text")
-    update_property(df_matched, page_url, NOTION_TOKEN)
+    update_db(df_matched, page_url, NOTION_TOKEN)
     update_db_property_type(NOTION_TOKEN, DB_PROPERTY_ID, target_type="files")
 
 
