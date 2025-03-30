@@ -34,6 +34,7 @@ class Listing(LanceModel):
     obj_picture: str
     vector: Vector(func.ndims()) = func.VectorField()
 
+# datasets of the order of ~100K vectors don't require index creation
 def text2vec(df, db_name):
     db = lancedb.connect(db_name)
     table = db.create_table("property_listing", 
