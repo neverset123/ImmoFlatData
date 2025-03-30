@@ -4,9 +4,9 @@ The system handles data extraction, transformation, and flattening of complex hi
 The recommender provides personalize property suggestions by analyzing buyer preferences, needs, and market trends through natural language understanding and advanced data processing.
 
 ### Features
-- **Data Fetching**: Fetches real estate data from multiple sources, such as APIs or web scraping.
-- **Data Transformation**: Transforms complex nested JSON or XML data into a simplified flat structure.
+- **Data Fetching**: Fetches real estate data from multiple sources, such as APIs or web scraping. Transforms complex nested JSON or XML data into a simplified flat structure.
 - **Flat Data Structure**: Outputs data in a tabular format (e.g., CSV, JSON, or database-friendly format).
+- **merchandising strategies**: select and promote facets with deep learning
 - **Personalized Recommendation**: individual investment recommandation in terms of real estate property
 
 ### Installation
@@ -23,6 +23,9 @@ http_proxy=  python script/publisher.py
 [Flat Viewer](https://flatgithub.com/neverset123/ImmoFlatData)
 #### Frontend UI
 [recommendation UI](https://www.notion.so/Immobilien-Recommender-1a9b015797468066be88c216eccc7ecf)
+1. go to Preference Tab
+2. input your preference text
+3. exclusive recommendation is created after some minutes
 
 
 ## Misc
