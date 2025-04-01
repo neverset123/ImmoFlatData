@@ -6,6 +6,9 @@ on:
 jobs:
   rate_limited_job:
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: false
     steps:
       - name: Get Last Successful Run
         env:
