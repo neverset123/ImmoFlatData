@@ -41,7 +41,7 @@ jobs:
 
           if [ "$DIFF" -lt 300 ]; then
             echo "Rate limit not reached, workflow will be stopped."
-            exit 0
+            exit 1
           fi
       - uses: actions/checkout@v4
         with:
