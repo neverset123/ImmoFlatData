@@ -21,8 +21,9 @@ jobs:
       - name: Check Time Difference
         run: |
           NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          echo "Now is: $NOW"
           LAST_RUN_SECONDS=$(date -d "$LAST_RUN" +%s)
-          NOW_SECONDS=$(date -d "$NOW" +%s)
+          NOW_SECONDS=$(date -u -d "$NOW" +%s)
           DIFF=$((NOW_SECONDS - LAST_RUN_SECONDS))
           echo "Time since last successful run: $DIFF"
           if [ "$DIFF" -lt 300 ]; then
