@@ -20,12 +20,22 @@ jobs:
           echo "Last successful run was at: $LAST_RUN"
       - name: Check Time Difference
         run: |
+          # Get the current time in UTC
           NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           echo "Now is: $NOW"
+
+          # Convert LAST_RUN to seconds since epoch
           LAST_RUN_SECONDS=$(date -u -d "$LAST_RUN" +%s)
+          echo "Last successful run in seconds since epoch: $LAST_RUN_SECONDS"
+
+          # Convert NOW to seconds since epoch
           NOW_SECONDS=$(date -u -d "$NOW" +%s)
+          echo "Current time in seconds since epoch: $NOW_SECONDS"
+
+          # Calculate the time difference in seconds
           DIFF=$((NOW_SECONDS - LAST_RUN_SECONDS))
-          echo "Time since last successful run: $DIFF"
+          echo "Time difference in seconds: $DIFF"
+
           if [ "$DIFF" -lt 300 ]; then
             echo "Rate limit not reached, workflow will be stopped."
             exit 0
