@@ -12,7 +12,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           LAST_RUN=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
-            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/<workflow_id>/runs?status=success&per_page=1" \
+            "https://api.github.com/repos/neverset123/ImmoFlatData/actions/workflows/Agent_trigger.yaml/runs?status=success&per_page=1" \
             | jq -r '.workflow_runs[0].created_at')
           echo "Last successful run was at: $LAST_RUN"
       - name: Check Time Difference
