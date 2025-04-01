@@ -17,6 +17,12 @@ jobs:
           LAST_RUN=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
             "https://api.github.com/repos/neverset123/ImmoFlatData/actions/workflows/Agent_trigger.yaml/runs?status=success&per_page=1" \
             | jq -r '.workflow_runs[0].created_at')
+
+          if [ -z "$LAST_RUN" ] || [ "$LAST_RUN" == "null" ]; then
+            echo "Error: Unable to retrieve the last successful run timestamp."
+            exit 1
+          fi
+
           echo "Last successful run was at: $LAST_RUN"
       - name: Check Time Difference
         run: |
@@ -25,7 +31,7 @@ jobs:
           echo "Now is: $NOW"
 
           # Convert LAST_RUN to seconds since epoch
-          LAST_RUN_SECONDS=$(date -u -d "$LAST_RUN" +%s)
+          LAST_RUN_SECONDS=$(date -u -d "$(echo $LAST_RUN | sed 's/Z//')" +%s)
           echo "Last successful run in seconds since epoch: $LAST_RUN_SECONDS"
 
           # Convert NOW to seconds since epoch
