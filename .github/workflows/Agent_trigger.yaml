@@ -22,7 +22,7 @@ jobs:
         run: |
           NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           echo "Now is: $NOW"
-          LAST_RUN_SECONDS=$(date -d "$LAST_RUN" +%s)
+          LAST_RUN_SECONDS=$(date -u -d "$LAST_RUN" +%s)
           NOW_SECONDS=$(date -u -d "$NOW" +%s)
           DIFF=$((NOW_SECONDS - LAST_RUN_SECONDS))
           echo "Time since last successful run: $DIFF"
