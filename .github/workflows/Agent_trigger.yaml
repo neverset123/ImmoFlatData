@@ -21,8 +21,9 @@ jobs:
           LAST_RUN_SECONDS=$(date -d "$LAST_RUN" +%s)
           NOW_SECONDS=$(date -d "$NOW" +%s)
           DIFF=$((NOW_SECONDS - LAST_RUN_SECONDS))
+          echo "Time since last successful run: $DIFF"
           if [ "$DIFF" -lt 300 ]; then
-            echo "Rate limit not reached. Exiting."
+            echo "Rate limit not reached, workflow will be stopped."
             exit 0
           fi
       - uses: actions/checkout@v4
