@@ -47,6 +47,10 @@ def trigger():
     except Exception as e:
         logging.error(f"Error triggering GitHub Actions workflow: {str(e)}")
 
+@app.route("/")
+def home():
+    return "Hello,  ImmoAgent!"
+
 @app.route('/trigger', methods=['POST'])
 @limiter.limit("5 per minute")  # Custom rate limit for this route
 def run():
