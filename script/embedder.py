@@ -43,6 +43,7 @@ def text2vec(df, db_name):
                             on_bad_vectors="fill",
                             fill_value="")
     table.add(df.to_dict("records"))
+    print(f"{table.count()} records are embedded!")
     print(table.head().to_pandas())
 
 if __name__ == "__main__":
