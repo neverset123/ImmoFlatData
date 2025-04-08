@@ -38,7 +38,7 @@ def get_preference(notion, db_id):
                 user_name = user_col[0]["name"]
                 user_input = data_col[0]['text']['content']
                 df = pd.concat([df, pd.DataFrame({'user_id': [user_id], 'user_name': [user_name], 'user_input': [user_input]})], ignore_index=True)
-    print(f"Got preference inputs from {df["user_id"].nunique()} users.")
+    print(f"Got preference inputs from {df['user_id'].nunique()} users.")
     return df
 
 def save_preference(df, db_name):
