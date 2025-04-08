@@ -38,6 +38,7 @@ def get_preference(notion, db_id):
                 user_name = user_col[0]["name"]
                 user_input = data_col[0]['text']['content']
                 df = pd.concat([df, pd.DataFrame({'user_id': [user_id], 'user_name': [user_name], 'user_input': [user_input]})], ignore_index=True)
+    print(f"Got preference inputs from {df["user_id"].nunique()} users.")
     return df
 
 def save_preference(df, db_name):
@@ -48,6 +49,7 @@ def save_preference(df, db_name):
                             on_bad_vectors="fill",
                             fill_value="")
     table.add(df.fillna("").to_dict("records"))
+    print("saved user preferences into db.")
     # print(table.head().to_pandas())
 
 def embed_func(c):
@@ -66,6 +68,7 @@ def find_match(df):
         df_matched = table.search(preference_embedded).metric("cosine").limit(10).where("description!=''", prefilter=True).to_pandas()
         df_matched["Person"] = user_id
         df_list.append(df_matched)
+        print(f"found {len(df_matched)} matches for user {user_id}.")
     df_combined = pd.concat(df_list)
     df_result = (df_combined.groupby(['obj_scoutId', 'title', 'obj_purchasePrice', 'description',
                                     'obj_typeOfFlat', 'obj_privateOffer', 'obj_condition', 'online_since',
@@ -95,9 +98,9 @@ def update_db_property_type(api_key, db_id, target_col="Cover image", target_typ
     }
     response = requests.patch(url, headers=headers, data=json.dumps(payload))
     if response.status_code == 200:
-        print("Database property updated successfully!")
+        print("Image attribute type updated successfully!")
     else:
-        print(f"Failed to update database property: {response.status_code}")
+        print(f"Failed to update image attribute type: {response.status_code}.")
 
 def clear_db_data(api_key, db_id):
     query_url = f"https://api.notion.com/v1/databases/{db_id}/query"
@@ -118,9 +121,9 @@ def clear_db_data(api_key, db_id):
         }
         update_response = requests.patch(update_url, headers=headers, json=payload)
         if update_response.status_code == 200:
-            print(f"Successfully archived for page {page_id}")
+            print(f"Successfully archived for page {page_id}.")
         else:
-            print(f"Failed to archive page {page_id}: {update_response.status_code}")
+            print(f"Failed to archive page {page_id}: {update_response.status_code}.")
             print(update_response.json())
 
 def update_db(df_matched, page_url, api_key):
@@ -147,6 +150,7 @@ def update_db(df_matched, page_url, api_key):
     df["Online Date"] = pd.to_datetime(df["Online Date"])
     df["Rented"] = df["Rented"].apply(lambda x: True if x =="y" else False)
     df.to_notion(page_url, api_key=api_key)
+    print("Property list is updated!")
 
 if __name__ == "__main__":
     # pd.set_option('display.max_rows', None)
