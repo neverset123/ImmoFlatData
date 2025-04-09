@@ -5,6 +5,7 @@ from lancedb.pydantic import LanceModel
 import pandas as pd
 import openai
 import os
+import sys
 import pandas as pd
 import notion_df
 import requests
@@ -121,11 +122,11 @@ def clear_db_data(api_key, db_id):
             "archived": True
         }
         update_response = requests.patch(update_url, headers=headers, json=payload)
-        if update_response.status_code == 200:
-            print(f"Successfully archived for page {page_id}.")
-        else:
+        if update_response.status_code != 200:
             print(f"Failed to archive page {page_id}: {update_response.status_code}.")
             print(update_response.json())
+            sys.exit(1)
+    print("successfully archived all pages!")
 
 def update_db(df_matched, page_url, api_key):
     notion_df.pandas()
@@ -150,6 +151,7 @@ def update_db(df_matched, page_url, api_key):
     df["Title"] = df["Title"].astype("str")
     df["Online Date"] = pd.to_datetime(df["Online Date"])
     df["Rented"] = df["Rented"].apply(lambda x: True if x =="y" else False)
+    df["Person"] = df["Person"].apply(lambda x: [user_id for user_id in x if pd.notna(user_id)])
     df.to_notion(page_url, api_key=api_key)
     print("Property list is updated!")
 
