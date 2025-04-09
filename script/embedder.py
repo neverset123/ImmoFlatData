@@ -29,7 +29,7 @@ class Listing(LanceModel):
     obj_rented: str
     url: str
     geo_bg: str
-    obj_usableArea: float
+    obj_livingSpace: float
     obj_yearConstructed: int
     obj_picture: str
     vector: Vector(func.ndims()) = func.VectorField()
@@ -54,7 +54,7 @@ if __name__ == "__main__":
         'object': '',      # Fill NaN with empty string for string columns
         'bool': False      # Fill NaN with False for boolean columns
     }
-    selected_cols = ["obj_scoutId", "title", "obj_purchasePrice", "description", "obj_typeOfFlat", "obj_privateOffer", "online_since", "obj_energyEfficiencyClass", "obj_firingTypes", "obj_telekomInternetSpeed", "obj_rented", "url", "geo_bg", "obj_usableArea", "obj_yearConstructed", "obj_condition", "obj_picture"]
+    selected_cols = ["obj_scoutId", "title", "obj_purchasePrice", "description", "obj_typeOfFlat", "obj_privateOffer", "online_since", "obj_energyEfficiencyClass", "obj_firingTypes", "obj_telekomInternetSpeed", "obj_rented", "url", "geo_bg", "obj_livingSpace", "obj_yearConstructed", "obj_condition", "obj_picture"]
     for city in configs.urls:
         file_path = f"{configs.out_dir}{city}.csv"
         df = pd.read_csv(file_path, usecols=selected_cols, nrows=100).drop_duplicates()
