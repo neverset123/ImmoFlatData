@@ -69,6 +69,7 @@ def find_match(df):
         df_matched["Person"] = user_id
         df_list.append(df_matched)
         print(f"found {len(df_matched)} matches for user {user_id}.")
+    df_list.append(table.to_pandas())
     df_combined = pd.concat(df_list)
     df_result = (df_combined.groupby(['obj_scoutId', 'title', 'obj_purchasePrice', 'description',
                                     'obj_typeOfFlat', 'obj_privateOffer', 'obj_condition', 'online_since',
