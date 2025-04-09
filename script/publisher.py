@@ -76,7 +76,7 @@ def find_match(df):
                                     'obj_typeOfFlat', 'obj_privateOffer', 'obj_condition', 'online_since',
                                     'obj_energyEfficiencyClass', 'obj_firingTypes',
                                     'obj_telekomInternetSpeed', 'obj_rented', 'url', 'geo_bg',
-                                    'obj_usableArea', 'obj_yearConstructed', 'obj_picture'], as_index=False)
+                                    'obj_livingSpace', 'obj_yearConstructed', 'obj_picture'], as_index=False)
                             .agg({
                                 "Person":list
                             })
@@ -141,7 +141,7 @@ def update_db(df_matched, page_url, api_key):
                             "obj_yearConstructed":"Construction Year",
                             "obj_telekomInternetSpeed":"Internet Speed",
                             "obj_energyEfficiencyClass":"Energy Class",
-                            "obj_usableArea":"Property Size",
+                            "obj_livingSpace":"Property Size",
                             "online_since":"Online Date",
                             "title":"Title",
                             "obj_condition":"Property Condition"
