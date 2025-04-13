@@ -18,7 +18,6 @@ os.environ["AZURE_OPENAI_API_KEY"] = os.getenv("APIKEY")
 
 class Preference(LanceModel):
     user_id: str
-    user_name: str
     user_input: str
 
 def get_preference(notion, db_id):
@@ -28,7 +27,7 @@ def get_preference(notion, db_id):
         }
     )["results"]
     selected_column = "Criteria"
-    columns = ['user_id', 'user_name', 'user_input']
+    columns = ['user_id', 'user_input']
     df = pd.DataFrame(columns=columns)
     for item in data_pref:
         if selected_column in item['properties']:
@@ -36,9 +35,8 @@ def get_preference(notion, db_id):
             user_col = item['properties']["Person"]["people"]
             if len(data_col)!=0:
                 user_id = user_col[0]["id"]
-                user_name = user_col[0]["name"]
                 user_input = data_col[0]['text']['content']
-                df = pd.concat([df, pd.DataFrame({'user_id': [user_id], 'user_name': [user_name], 'user_input': [user_input]})], ignore_index=True)
+                df = pd.concat([df, pd.DataFrame({'user_id': [user_id], 'user_input': [user_input]})], ignore_index=True)
     print(f"Got preference inputs from {df['user_id'].nunique()} users.")
     return df
 
@@ -152,6 +150,10 @@ def update_db(df_matched, page_url, api_key):
     df["Online Date"] = pd.to_datetime(df["Online Date"])
     df["Rented"] = df["Rented"].apply(lambda x: True if x =="y" else False)
     df["Person"] = df["Person"].apply(lambda x: [user_id for user_id in x if pd.notna(user_id)])
+    df["Property Type"] = df["Property Type"].apply(lambda x: x.replace("_", ""))
+    df["Firing Type"] = df["Firing Type"].apply(lambda x: x.replace("_", ""))
+    df["Location"] = df["Location"].apply(lambda x: x.replace("_", ""))
+    df["Property Condition"] = df["Property Condition"].apply(lambda x: x.replace("_", ""))
     df.to_notion(page_url, api_key=api_key)
     print("Property list is updated!")
 
