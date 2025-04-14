@@ -1,7 +1,7 @@
 ## ImmoFlatData
 This project is designed to fetch Immobilien (real estate) data from a given source (e.g., a web API or website) and convert it into a flat data structure for easier manipulation and further analysis, reporting, or storage.
 The system handles data extraction, transformation, and flattening of complex hierarchical structures into a tabular format, which is ideal for integration into data warehouses, spreadsheets, or databases.
-The recommender provides personalize property suggestions by analyzing buyer preferences, needs, and market trends through natural language understanding and advanced data processing.
+The LLM-empowered RecSys provides personalize property suggestions by analyzing buyer preferences, needs, and market trends through natural language understanding and advanced data processing.
 
 ### Features
 - **Data Fetching**: Fetches real estate data from multiple sources, such as APIs or web scraping. Transforms complex nested JSON or XML data into a simplified flat structure.
