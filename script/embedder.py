@@ -57,7 +57,9 @@ if __name__ == "__main__":
     selected_cols = ["obj_scoutId", "title", "obj_purchasePrice", "description", "obj_typeOfFlat", "obj_privateOffer", "online_since", "obj_energyEfficiencyClass", "obj_firingTypes", "obj_telekomInternetSpeed", "obj_rented", "url", "geo_bg", "obj_livingSpace", "obj_yearConstructed", "obj_condition", "obj_picture"]
     for city in configs.urls:
         file_path = f"{configs.out_dir}{city}.csv"
-        df = pd.read_csv(file_path, usecols=selected_cols, nrows=100).drop_duplicates()
+        file_path_pkl = f"{configs.out_dir}{city}.pkl"
+        # df = pd.read_csv(file_path, usecols=selected_cols, nrows=100).drop_duplicates()
+        df = pd.read_pickle(file_path_pkl)[selected_cols].head(100)
         df["obj_picture"] = df["obj_picture"].str.split("/ORIG").str[0]
         df[df.select_dtypes(include=['int']).columns] = df.select_dtypes(include=['int']).fillna(default_fill_values['int'])
         df[df.select_dtypes(include=['float']).columns] = df.select_dtypes(include=['float']).fillna(default_fill_values['float'])
