@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 import json
+import pickle
 from datetime import datetime
 import pandas as pd
 import re
@@ -126,6 +127,7 @@ def scraping():
         try:
             for city in cities:
                 result_file = f"{configs.out_dir}{city}.csv"
+                result_file_pkl = f"{configs.out_dir}{city}.pkl"
                 df_city = pd.DataFrame()
                 for url in cities[city]:
                     number_of_pages = get_pages_number(driver=driver, url=url)
@@ -195,6 +197,7 @@ def scraping():
                 df_city = cal_stats(df=df_city, config=configs)
                 if not df_city.empty:
                     df_city.to_csv(result_file, index=False)
+                    df_city.to_pickle(result_file_pkl)
         except Exception as e:
             logging.error(f"error occurred during scraping: {e}.")
 
