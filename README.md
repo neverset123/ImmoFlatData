@@ -34,10 +34,27 @@ https://github.com/lavague-ai/LaVague
 https://www.youtube.com/watch?v=QxHE4af5BQE
 https://github.com/jina-ai/reader
 
-### scrapy and playwright
+
+```
+docker build --network host -f trigger/Dockerfile -t neverset/immoagent:latest .
+docker run --network host -e GITHUB_TOKEN= neverset/immoagent:latest 
+```
+
+1. fix commiter user
+bash test.sh
+git push --force --tags origin 'refs/heads/main'
+
+2. publish 
+https://blog.cloudboost.io/how-to-build-a-notion-web-app-with-almost-no-code-for-free-5d7c460e946d
+
+3. scrapy and playwright
 use scrapy and playwright: Since cookies are assigned for the first time, use Playwright to collect them and then inject them in a Scrapy POST call
 ```
 scrapy startproject immo
 scrapy genspider quotes_pagination http://quotes.toscrape.com/scroll
 scrapy crawl quotes_pagination
 ```
+
+4. captcha
+use https://github.com/daijro/camoufox
+https://github.com/NoahCardoza/CaptchaHarvester?tab=readme-ov-file
