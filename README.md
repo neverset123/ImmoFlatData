@@ -58,3 +58,6 @@ scrapy crawl quotes_pagination
 4. captcha
 use https://github.com/daijro/camoufox
 https://github.com/NoahCardoza/CaptchaHarvester?tab=readme-ov-file
+
+5. convert input to filter with bert
+![](./bert.PNG)
