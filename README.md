@@ -61,3 +61,6 @@ https://github.com/NoahCardoza/CaptchaHarvester?tab=readme-ov-file
 
 5. convert input to filter with bert
 ![](./bert.PNG)
+
+6. deployment platform
+https://eu-central-1.run.claw.cloud/ (5$ monthly fee free)
