@@ -51,4 +51,4 @@ jobs:
           DB_PROPERTY_PAGE_URL: ${{ secrets.DB_PROPERTY_PAGE_URL }} 
         run: |
           python script/embedder.py
-          python script/publisher.py
+          # python script/publisher.py
