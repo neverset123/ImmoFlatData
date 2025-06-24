@@ -49,6 +49,6 @@ jobs:
           DB_PREFERENCE_ID: ${{ secrets.DB_PREFERENCE_ID }} 
           DB_PROPERTY_ID: ${{ secrets.DB_PROPERTY_ID }} 
           DB_PROPERTY_PAGE_URL: ${{ secrets.DB_PROPERTY_PAGE_URL }} 
-        run: |
-          python script/embedder.py
+        # run: |
+          # python script/embedder.py
           # python script/publisher.py
