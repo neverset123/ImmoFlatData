@@ -1,172 +1,89 @@
-obj_regio1,obj_heatingType,obj_telekomInternetUrlAddition,obj_cId,obj_newlyConst,obj_balcony,obj_picture,obj_picturecount,obj_usableArea,obj_yearConstructed,geo_ot,obj_privateOffer,obj_scoutId,obj_noParkSpaces,obj_firingTypes,obj_hasKitchen,obj_ExclusiveExpose,obj_courtage,geo_bln,obj_cellar,obj_purchasePriceRange,obj_yearConstructedRange,obj_rentSubsidy,obj_telekomInternetUrlBase,obj_houseNumber,obj_energyType,obj_livingSpace,geo_krs,obj_zipCode,obj_condition,obj_interiorQual,obj_highDemand,obj_energyEfficiencyClass,ga_cd_cxp_historicallisting,obj_parkingSpace,obj_street,obj_lift,obj_commissionsettings,obj_streetPlain,obj_typeOfFlat,geo_plz,obj_noRooms,obj_thermalChar,obj_assistedLiving,obj_lastRefurbish,obj_ityp,obj_telekomInternetAvailable,geo_land,ga_cd_via,obj_immotype,obj_rented,obj_privateOfferInvestmentCheck,obj_contactFormInputFieldCount,obj_floor,obj_telekomInternetSpeed,obj_cwId,obj_purchasePrice,ga_cd_application_requirements,obj_numberOfFloors,geo_bg,obj_noRoomsRange,ga_cd_maillead_default_shown,obj_garden,obj_regio4,obj_barrierFree,obj_international,obj_regio3,obj_objectnumber,obj_livingSpaceRange,obj_regio2,url,extract_date,extract_time,online_since,title,description,equipments,locations,ga_cd_via_qualified,ga_cd_developer_virtualreality,obj_galleryAd,obj_groupnumber,evt_count_pm_sig
-Baden_Württemberg,central_heating,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJTY2htaWRlbmVyIFN0ci4iLCJoYXVzbnVtbWVyIjoiMjQ1Iiwia2xzaWQiOjIwNDI0MjQ0LCJoYXVzbnVtbWVyenVzYXR6IjoiIiwicGx6IjoiNzAzNzQifQ%3D%3D,16559200,n,y,https://pictures.immobilienscout24.de/listings/a55b5feb-5d2d-4a72-81c9-40f4ba3a8047-1924498883.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,12,10,1959,muckensturm,false,159664240,1,gas,y,false,y,baden_württemberg,y,7,2,360,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,245,energy_required,73.8,stuttgart,70372,refurbished,normal,,C,false,outside,Schmidener Stra&szlig;e,n,flow:0,Schmidener_Straße,raised_ground_floor,,3,84.7,n,2020,"2,active",true,deutschland,top,wohnung_kauf,n,false,6,1,250 MBit/s,001.16158516,305000,profile1_listingtype,3,bad_cannstatt,3,true,n,Muckensturm,n,n,Bad_Cannstatt,Bad135,3,Stuttgart,https://www.immobilienscout24.de/expose/159664240,2025-08-10,01:24:00,2025-08-09T18:50:52.000+02:00,"Stilvolle, sanierte 3-Zimmer-Hochparterre-Wohnung mit Balkon und Einbauküche in Stuttgart","Diese attraktive Hochparterre-Wohnung, die sich im 1. Stock befindet, steht ab sofort zum Verkauf. Sie steht leer und kann daher direkt nach dem Kauf selbst bezogen oder vermietet werden.
-Durch den optimalen Schnitt eignet sich die Wohnung auch besonders zur Vermietung an WGs.
+obj_regio1,obj_heatingType,ga_cd_via_qualified,obj_telekomInternetUrlAddition,obj_cId,obj_newlyConst,obj_balcony,obj_picture,obj_picturecount,obj_usableArea,obj_yearConstructed,geo_ot,obj_privateOffer,obj_galleryAd,obj_scoutId,obj_firingTypes,obj_hasKitchen,obj_ExclusiveExpose,obj_courtage,geo_bln,obj_cellar,obj_purchasePriceRange,obj_yearConstructedRange,obj_telekomInternetUrlBase,obj_houseNumber,obj_livingSpace,geo_krs,obj_zipCode,obj_condition,obj_interiorQual,obj_highDemand,ga_cd_cxp_historicallisting,obj_parkingSpace,obj_street,obj_lift,obj_commissionsettings,obj_streetPlain,obj_typeOfFlat,geo_plz,obj_noRooms,obj_assistedLiving,obj_ityp,obj_telekomInternetAvailable,geo_land,ga_cd_via,obj_immotype,obj_rented,obj_privateOfferInvestmentCheck,obj_contactFormInputFieldCount,obj_telekomInternetSpeed,obj_cwId,obj_purchasePrice,ga_cd_application_requirements,obj_numberOfFloors,geo_bg,obj_noRoomsRange,ga_cd_maillead_default_shown,obj_garden,evt_count_pm_sig,obj_regio4,obj_barrierFree,obj_international,obj_regio3,obj_objectnumber,obj_livingSpaceRange,obj_regio2,url,extract_date,extract_time,online_since,title,description,equipments,locations,obj_rentSubsidy,obj_noParkSpaces,obj_energyType,obj_energyEfficiencyClass,obj_thermalChar,obj_floor,ga_cd_developer_virtualreality,obj_lastRefurbish,obj_groupnumber
+Baden_Württemberg,oil_heating,true,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJTY2htaWRlbmVyIFN0ci4iLCJoYXVzbnVtbWVyIjoiNDUiLCJrbHNpZCI6MTU0NjEzMTUsImhhdXNudW1tZXJ6dXNhdHoiOiIiLCJwbHoiOiI3MDM3MiJ9,16540646,n,n,https://pictures.immobilienscout24.de/listings/3e9c476f-a948-4cf4-af95-ee114397bf1c-1929476019.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,8,10,1968,kurpark,false,disabled,160983569,no_information,y,false,y,baden_württemberg,y,5,2,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,48,stuttgart,70372,well_kept,no_information,,false,no_information,no_information,n,flow:1,no_information,apartment,,2,n,"2,active",true,deutschland,premium,wohnung_kauf,n,false,19,250 MBit/s,002.01007317877,229000,profile0,3,bad_cannstatt,2,true,n,showqualicontactform,Kurpark,n,n,Bad_Cannstatt,LDW1.BSC.10217,2,Stuttgart,https://www.immobilienscout24.de/expose/160983569,2025-08-11,01:20:40,2025-08-10T15:18:52.000+02:00,Sundowner mit Aussicht – deine Dachgeschosswohnung über den Dächern von Cannstatt,"Sundowner mit Aussicht – deine Dachgeschosswohnung über den Dächern von Cannstatt
 
-Ein Badezimmer und ein separates WC komplettieren die drei attraktiven Zimmer zu einer modern ausgestatteten Wohnung zum Wohlfühlen. 
-Zum Apartment gehört auch ein Balkon, auf dem es sich wunderbar vom Alltag erholen lässt. 
-Durch den zur Wohnung gehörenden Stellplatz gehört die lange Suche nach einem Parkplatz der Vergangenheit an. Anschließend können Sie Ihre Wocheneinkäufe entspannt in die bereits vorhandene Einbauküche tragen. 
-Es gibt außerdem zwei Kellerräum, die Ihnen Platz für Ihr Hab und Gut bieteten.
+Du suchst mehr als nur vier Wände? Dann wirst du diese Wohnung lieben: Die Loggia mit Weitblick, das helle und freundliche Wohnzimmer und das entspannte Wohngefühl unterm Dach machen diese 2-Zimmer-Wohnung zu deinem ganz persönlichen Rückzugsort in der Stadt.
 
+Im 3. Obergeschoss (ohne Aufzug) gelegen, überzeugt das Dachgeschoss mit Charme und Ruhe – perfekt für alle, die nach dem Trubel des Alltags einfach nur durchatmen wollen.
 
-Das Haus wurde 2014 umfassen saniert. Die Fassade wurde gedämmt, das Dach isoliert und neu eingedeckt. Das Treppenhaus wurde gerichtet usw.
-2020 wurde eine neue Gas-Zentralheizung eingebaut.
-Somit werden in den nächsten Jahren keine großen Sanierungen zu erwarten sein.
+Die Raumaufteilung ist klar und praktisch: ein großzügiges Wohnzimmer, eine ordentliche, funktionale Küche, ein ruhiges Schlafzimmer und das Highlight – die Loggia mit Ausblick. Hier oben bist du für dich und doch mittendrin: Cafés, Supermärkte, die U-Bahn – alles in Laufweite.
 
-Vereinbaren Sie gerne einen flexiblen Besichtigungstermin.","~ 3 Zimmer
-~ Balkon
-~ Einbauküche
-~ separates WC
-~ 2 Kellerräume
-~ Außenstellplatz",,,,,,
-Baden_Württemberg,central_heating,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJFaW5zdGVpbnN0ci4iLCJoYXVzbnVtbWVyIjoiMzEiLCJrbHNpZCI6MTcwODk4NjYsImhhdXNudW1tZXJ6dXNhdHoiOiIiLCJwbHoiOiI3MDM3NCJ9,16924112,n,y,https://pictures.immobilienscout24.de/listings/27f2cec6-2f16-4800-8723-40e5de2ca739-1929283284.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,14,,1972,muckensturm,false,160970181,1,gas,y,false,y,baden_württemberg,y,7,3,,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,energy_consumption,86.01,stuttgart,70374,well_kept,normal,,F,false,underground_garage,no_information,y,flow:0,no_information,no_information,,3.5,164,n,,"2,active",true,deutschland,premium,wohnung_kauf,n,false,19,2,250 MBit/s,009.06041d57-de1b-4a48-987b-3b0882138407,380000,profile0,2,bad_cannstatt,3,true,y,Muckensturm,n,n,Bad_Cannstatt,160970181,4,Stuttgart,https://www.immobilienscout24.de/expose/160970181,2025-08-10,01:24:04,2025-08-09T10:10:23.000+02:00,"Attraktive 3,5-Zimmer Wohnung mit 2 Balkone und einer Tiefgaragenbox","Objektnr: 1068322 
-
-+ In ruhiger Umgebung, zur Vermietung, aber auch zur Eigennutzung - komfortabler Personenaufzug
-+ Regeneration an der frischen Luft dank 2 Balkone sowie einem gemeinschaftlichen Garten
-+ Ideal für schnellen Einzug, da aktuell leerstehend - Hausgeld: ca. 416 €
-+ Ausstattung der Wohnung umfasst eine Einbauküche sowie einem Holzparkettboden
-+ Weiteren Komfort im Alltag garantieren eine Tiefgaragenbox, ein Kellerraum, eine Hausreinigung und ein Winterdienst
-
-",,"Lage: Attraktive Lage in Stuttgart mit besten Voraussetzungen für Eigennutzer oder Kapitalanleger 
-Bildung und Betreuung: Familienfreundliches Wohnen mit Kindergarten und Schule in fußläufiger Entfernung
-Nahversorgung: Geschäfte wie Supermarkt, Postfiliale und Bankfiliale ca. 800 m entfernt
-Anbindung: Bushaltestelle, Bahnhof und Autobahn komfortabel erreichbar",true,true,disabled,,
-Baden_Württemberg,self_contained_central_heating,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJTZXlmZmVyc3RyLiIsImhhdXNudW1tZXIiOiI2NCIsImtsc2lkIjoyMDkyNzEyMywiaGF1c251bW1lcnp1c2F0eiI6IiIsInBseiI6IjcwMTk3In0%3D,601695,n,y,https://pictures.immobilienscout24.de/listings/a9c314e5-443d-4e54-8982-f1a7da64b5cd-1929208905.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,17,20,1905,vogelsang,false,160964034,,gas,y,false,y,baden_württemberg,y,8,1,285,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,energy_consumption,85,stuttgart,70197,fully_renovated,sophisticated,,NO_INFORMATION,false,no_information,no_information,n,flow:0,no_information,apartment,,3,200,n,2025,"2,active",true,deutschland,schaufenster,wohnung_kauf,n,false,7,3,1000 MBit/s,001.601695,480000,profile0,4,west,3,true,n,Vogelsang,n,n,West,20282025,4,Stuttgart,https://www.immobilienscout24.de/expose/160964034,2025-08-10,01:24:07,2025-08-08T19:08:01.000+02:00,Stilvoll renovierte 3-Zimmer-Wohnung mit Aussicht in bevorzugter Lage von Stuttgart-West,,"Kernsanierung im Jahr 2021
-Neuwertige Gas-Etagenheizung
-Weiße Kunststoff-Isolierglasfenster 
-Alle Wohn- und Schlafräume mit Parkett
-Flur, Küche und Tageslichtbad gefliest
-Wände Glattputz weiß
-Modernes Bad mit großer Dusche und
-Waschtisch
-Glastüren intern
-Komplette, moderne Einbauküche weiß mit allen technischen Geräten
-Neue Elektrik, Sanitär, Heizung in 2021","Sehr ruhige, angenehme Wohnlage im
-gefragten Stuttgarter Westen und in unmittelbarer Nähe zum Bismarckplatz und der  Elisabethenkirche mit Blick
-über den Westen.
-Alle Einkaufsmöglichkeiten fußläufig
-Stadtbahnhaltestelle U2 und U9 bequem zu Fuß erreichbar 
-Schulen und Kindergärten sowie Sport- und Freizeiteinrichtungen vor Ort",true,,disabled,,
-Baden_Württemberg,gas_heating,,868294,n,n,https://pictures.immobilienscout24.de/listings/9fd6715f-0e28-4e98-a1d5-0e2e59af943f-1929364544.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,14,5,1889,heslach,false,160975159,,gas,y,false,y,baden_württemberg,y,6,1,220,,no_information,,77,stuttgart,70199,refurbished,normal,,,false,no_information,no_information,n,flow:0,no_information,no_information,,3,,n,2005,"2,active",,deutschland,top,wohnung_kauf,n,false,11,5,,001.868294,299500,profile0,5,süd,3,true,n,Heslach,n,n,Süd,Okw001512,3,Stuttgart,https://www.immobilienscout24.de/expose/160975159,2025-08-10,01:24:11,2025-08-09T18:33:41.000+02:00,Dachgeschoss-Perle in Stuttgart-Süd: renditestark & sofort frei!,"Willkommen im Herzen von Stuttgart-Süd wir präsentieren Ihnen eine besondere Gelegenheit zum Erwerb einer renditestarken Dachgeschosswohnung in einem stilvollen, denkmalgeschützten Mehrfamilienhaus aus dem Jahr 1889. Die Wohnung wurde erst 2005  ausgebaut und vereint historischen Charme mit modernem Wohnkomfort.
-
-Auf rund 77 m² Wohnfläche bietet diese 3-Zimmer-Wohnung ein helles, offenes Raumkonzept mit gemütlichem Dachcharakter, gut geschnittenen Zimmern und modernen Ausstattungsdetails.
-
-Die Wohnung wurde in den letzten Jahren erfolgreich als WG-Wohnung vermietet und erwirtschaftete jährliche Nettomieteinnahmen von rund 16.000 € eine ausgezeichnete Kapitalanlage mit solider Rendite. Ab September 2025 ist die Wohnung bezugsfrei und kann sowohl zur Eigennutzung als auch zur Neuvermietung genutzt werden.
-
-
-Besonderheiten für Kapitalanleger:
-
- Steuervorteile durch Denkmalschutz-Abschreibung (AfA)
-
-Hohe Mietnachfrage durch zentrale Lage und WG-Eignung
-
-Gute Wertentwicklungsperspektive in wachstumsstarkem Stadtteil
-
-Attraktive Rendite durch bisherige Nettomieteinnahmen von ca. 16.000 €","Dachgeschosswohnung mit individueller Raumaufteilung
-
-Hochwertiger Dachausbau von 2005
-
-Helle Wohnräume durch Dachflächenfenster
-
-Moderne Küche 
-
-Gepflegtes Badezimmer
-
-Gasetagenheizung
-
-Kein Aufzug (5. OG)
-
-Denkmalgeschütztes Gebäude (AfA nach § 7i EStG möglich
-
-Citynah
-
-Guter Anschluss an die Öffis
-
-Keller
-
-WG Vermietung","Die Wohnung befindet sich in begehrter Wohnlage von Stuttgart-Süd, nur wenige Minuten von der Innenstadt entfernt. Die Anbindung an den ÖPNV ist hervorragend:
-
-U-Bahnlinien U1, U14 und U21 in wenigen Gehminuten erreichbar
-
-Zahlreiche Einzelhandelsgeschäfte, Supermärkte, Cafés und Restaurants befinden sich in unmittelbarer Umgebung
-
-Naherholung im Marienplatz, Wielandshöhe oder dem Erwin-Schöttle-Platz
-
-Die Lage vereint urbanes Lebensgefühl mit dem historischen Flair eines gewachsenen Stuttgarter Stadtteils.",,,disabled,333,
-Baden_Württemberg,,,18533450,n,y,https://pictures.immobilienscout24.de/listings/3bc80104-a24c-4e95-a59a-d8cff741609a-1929284640.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,1,,1969,,false,160970277,,no_information,y,false,n,baden_württemberg,y,4,2,,,no_information,no_information,56,esslingen_kreis,70771,no_information,no_information,,,false,no_information,no_information,n,flow:0,no_information,apartment,,2,,n,,"2,active",,deutschland,top,wohnung_kauf,n,false,19,2,,002.01009418979,186000,profile0,,leinfelden_echterdingen,2,true,n,,n,n,Leinfelden_Echterdingen,814187,2,Esslingen_Kreis,https://www.immobilienscout24.de/expose/160970277,2025-08-10,01:24:15,2025-08-09T10:17:44.000+02:00,"Provisionsfrei Etagenwohnung in 70771 Leinfelden-Echterdingen, Goldäckerstr.",,,,,,disabled,,showqualicontactform
-Baden_Württemberg,central_heating,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJTY2hpbHRhY2hlciBTdHIuIiwiaGF1c251bW1lciI6IjM4Iiwia2xzaWQiOjk5NDMwMzksImhhdXNudW1tZXJ6dXNhdHoiOiIiLCJwbHoiOiI3MDU2OSJ9,4872874,n,n,https://pictures.immobilienscout24.de/listings/2a873d77-9fd8-4a25-a46c-f49a18e14811-1929312181.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,7,6,1958,kaltental,false,160971782,,gas,n,true,y,baden_württemberg,n,5,2,177,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,energy_consumption,56,stuttgart,70569,well_kept,normal,,F,false,no_information,no_information,n,flow:0,no_information,roof_storey,,3,177,n,2025,"2,active",true,deutschland,standard,wohnung_kauf,n,false,11,,250 MBit/s,001.4872874,227000,profile0,,süd,3,true,n,Kaltental,n,n,Süd,44300104-084719,2,Stuttgart,https://www.immobilienscout24.de/expose/160971782,2025-08-10,01:24:19,2025-08-09T12:40:38.000+02:00,3-Zi-DG- S-Kaltental - leer - WG mgl.,,"- 3 Zimmer
-- Tageslichtbad
-- Einbauküche
-- Laminat, Fliesen
-- Gaszentralheizung neu
-- Innen ca. 1994 umfassend renoviert",,,,,,showqualicontactform
-Baden_Württemberg,central_heating,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJIYXVwdHN0ci4iLCJoYXVzbnVtbWVyIjoiMTYiLCJrbHNpZCI6MzY1MjU0NywiaGF1c251bW1lcnp1c2F0eiI6IiIsInBseiI6IjcwNTYzIn0%3D,15993797,n,y,https://pictures.immobilienscout24.de/listings/ad8f4a47-45b2-4640-959f-e8ffe6b481df-1927876192.jpeg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,17,7,1985,vaihingen_mitte,false,160876791,,gas,y,false,y,baden_württemberg,y,5,4,350,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,16,,59,stuttgart,70563,well_kept,sophisticated,,,false,no_information,Hauptstr.,y,flow:0,Hauptstr.,roof_storey,,2,,n,2018,"2,active",true,deutschland,premium,wohnung_kauf,n,false,7,4,175 MBit/s,001.15828483,209000,profile0,4,vaihingen,2,true,n,Vaihingen_Mitte,y,n,Vaihingen,160876791,2,Stuttgart,https://www.immobilienscout24.de/expose/160876791,2025-08-10,01:24:23,2025-08-08T17:21:09.000+02:00,"Terrasse, Tageslicht & Toplage – Wohnen, wie Sie es lieben","Willkommen über den Dächern von Stuttgart-Vaihingen! Diese charmante 2-Zimmer-Dachgeschosswohnung mit ca. 59 m² Wohnfläche vereint Großzügigkeit, Licht und urbanen Komfort. Das Herzstück ist der helle Wohnbereich mit imposanter Deckenhöhe – ein Raum, der Luft zum Atmen lässt und eine angenehme Offenheit vermittelt. Von hier aus treten Sie direkt auf die sonnige Terrasse, die sich perfekt für entspannte Abende oder den ersten Kaffee am Morgen anbietet.
-
-Praktisch und stilvoll zugleich: Neben dem Hauptbad steht ein separates Gäste-WC bereit. Die vorhandene Einbauküche fügt sich harmonisch ins Gesamtbild ein und ist sofort einsatzbereit. Technisch überzeugt die Wohnung mit einer Gas-Zentralheizung in Kombination mit behaglicher Fußbodenheizung – ein Garant für angenehme Wärme in allen Jahreszeiten. Das im Jahr 1985 erbaute Mehrfamilienhaus mit gemischter Wohn- und Gewerbenutzung ist gepflegt und bietet dank Aufzug bequemen Zugang bis ins Dachgeschoss. Hier trifft durchdachte Funktionalität auf ein Wohngefühl, das jeden Tag ein Stück besonderer macht.","- DG-Wohnung, großzügige ca. 59 m² Wohnfläche auf einem gemischten Mehrfamilienhaus mit Gewerbe unten – urbaner Lifestyle mit praktischer Note.
-
-- Wohnzimmer mit hoher Decke, lichtdurchflutet – die Räume atmen und wirken offen. Vom Wohnzimmer führt der Weg direkt auf die Terrasse – perfekt für entspannte Stunden.
-
-- Gäste-WC – ein echter Komfort-Pluspunkt.
-
-- Einbauküche (Standard, aber funktional) ist vorhanden – ready-to-use.
-
-- Technisch smart: Gas-Zentralheizung kombiniert mit Fußbodenheizung sorgt für behagliche Wärme in kalten Monaten.
-
-- Aufzug vorhanden – bequem, vor allem fürs DG ein echtes Komfort-Upgrade.
-
-- Baujahr 1985: solider, moderner Standard (fürs DG nicht zu hoch, aber zuverlässig).","Mitten im Herzen von Stuttgart-Vaihingen gelegen, punktet die Hauptstraße 16 mit einer Lage, die alles bietet: kurze Wege, beste Anbindung und eine lebendige Nachbarschaft. Einkaufsmöglichkeiten, Restaurants, Cafés, Ärzte und Apotheken sind bequem zu Fuß erreichbar. Auch die Universität Stuttgart sowie Schulen und Freizeiteinrichtungen befinden sich in direkter Umgebung.
-
-Pendler und Vielreisende profitieren von der erstklassigen Verkehrsanbindung: Der Bahnhof Stuttgart-Vaihingen mit S-Bahn-Linien S1, S2 und S3 sowie mehreren U-Bahn-Verbindungen ist nur wenige Minuten entfernt. Über die nahegelegenen Autobahnen A8, A81 und die B14 erreichen Sie schnell die Innenstadt, den Flughafen oder weiter entfernte Ziele.
-
-Stuttgart-Vaihingen vereint urbanes Leben mit einem charmanten, fast kleinstädtischen Flair – ideal für alle, die zentrale Lage, gute Infrastruktur und ein lebendiges Umfeld schätzen.",true,,,,
-Baden_Württemberg,oil_heating,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJTY2htaWRlbmVyIFN0ci4iLCJoYXVzbnVtbWVyIjoiNDUiLCJrbHNpZCI6MTU0NjEzMTUsImhhdXNudW1tZXJ6dXNhdHoiOiIiLCJwbHoiOiI3MDM3MiJ9,16540646,n,y,https://pictures.immobilienscout24.de/listings/20c0b08d-1d42-46af-9ef0-87ccc77b2fda-1929274146.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,13,,1968,kurpark,false,160969685,1,no_information,n,false,n,baden_württemberg,y,5,2,,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,,48,stuttgart,70372,well_kept,no_information,,,false,outside,no_information,n,flow:0,no_information,apartment,,2,,n,,"2,active",true,deutschland,premium,wohnung_kauf,y,false,19,,250 MBit/s,002.01007317877,229000,profile0,1,bad_cannstatt,2,true,n,Kurpark,n,n,Bad_Cannstatt,LDW1.BSC.10161,2,Stuttgart,https://www.immobilienscout24.de/expose/160969685,2025-08-10,01:24:27,2025-08-09T09:12:22.000+02:00,Cozy 2-Zimmer-Appartement im Herzen Bad Cannstatts,"Für Singles, Sparfüchse & Studies: 
-Cozy 2-Zimmer-Appartement im Herzen Bad Cannstatts
-
-Solide gebaut, praktisch geschnitten und mit ehrlichem 60er-Jahre-Flair – diese Wohnung ist kein Blender, sondern ein authentisches Cannstatter Original im besten Alter. Der klassische Grundriss überzeugt: Vom zentralen Flur aus gelangt man in Küche, Bad, Wohn- und Schlafzimmer. Ein Einbauschrank macht den Verbindungsflur zum Raumwunder. Zwei Balkone (einer zum ruhigen Innenhof, einer mit Blick zur Schmidener Straße) laden zum Durchatmen, Sonnen oder einfach nur Leute-Gucken ein.
-
-Die Lage: Ein Volltreffer! Zwischen Neckar und Kurpark wohnt man hier, wo Cannstatt am schönsten ist – mit kurzen Wegen zu Supermarkt, Uni, Mineralbad oder Innenstadt. Und auch ohne eigenes Auto sind Sie dank guter ÖPNV-Anbindung flott unterwegs. Wer doch lieber fährt: Ein Stellplatz direkt vorm Haus erspart langes Suchen.
-
-Ob als erstes eigenes Zuhause für Studierende, gemütlicher Rückzugsort für Berufstätige oder pflegeleichtes Investment – diese Wohnung trifft viele Geschmäcker. 
-
-Kapitalanleger aufgepasst: Hier wohnt sich’s gut und vermietet sich’s leicht! Sie wollen gleich mehr davon? Beachten Sie auch unser Angebot für die DG-Wohnung im selben Gebäude.","- zwei Balkone 
-- Einbauschrank im Flur
-- Küchenzeile 
-- Kellerabteil 
-- Stellplatz im Innenhof
-- wohnlicher Zustand","Die Wohnung befindet sich in der Schmidener Straße – einer etablierten Wohnlage im Stuttgarter Stadtbezirk Bad Cannstatt. Die Umgebung vereint urbanes Flair mit hoher Lebensqualität: Einkaufsmöglichkeiten für den täglichen Bedarf, Apotheken, Cafés und Restaurants befinden sich in unmittelbarer Nähe. Nur wenige Gehminuten entfernt liegt die Haltestelle „Obere Ziegelei“, von der aus Sie in kürzester Zeit mit der Stadtbahn (U1, U16) ins Zentrum oder zum Hauptbahnhof gelangen. Auch mit dem Auto profitieren Sie von einer hervorragenden Anbindung an die B10 und B14 – ideal für Berufspendler und mobile Stadtbewohner.
+Für wen?
+Ideal für Singles oder Paare, die urban, aber entspannt wohnen wollen – mit einem kleinen Extra an Lebensqualität über den Dächern der Stadt. Und für Kapitalanleger. Hier lohnt sich auch ein Blick in unser Wohnungsinserat für eine Zweizimmerwohnung im 1. OG desselben Gebäudes.",,"Die Wohnung befindet sich in der Schmidener Straße – einer etablierten Wohnlage im Stuttgarter Stadtbezirk Bad Cannstatt. Die Umgebung vereint urbanes Flair mit hoher Lebensqualität: Einkaufsmöglichkeiten für den täglichen Bedarf, Apotheken, Cafés und Restaurants befinden sich in unmittelbarer Nähe. Nur wenige Gehminuten entfernt liegt die Haltestelle „Obere Ziegelei“, von der aus Sie in kürzester Zeit mit der Stadtbahn (U1, U16) ins Zentrum oder zum Hauptbahnhof gelangen. Auch mit dem Auto profitieren Sie von einer hervorragenden Anbindung an die B10 und B14 – ideal für Berufspendler und mobile Stadtbewohner.
 
 Bad Cannstatt ist nicht nur der älteste Stadtbezirk Stuttgarts, sondern auch einer der lebendigsten. Mit seinem historischen Kern, zahlreichen Parks, Mineralbädern und der Nähe zum Neckar bietet Cannstatt eine hohe Lebens- und Freizeitqualität. Die Wilhelma, das beliebte zoologisch-botanische Gartenparadies, und der Neckarpark mit dem Stadion, der Hanns-Martin-Schleyer-Halle und dem Cannstatter Wasen sind nur einige der Highlights in unmittelbarer Umgebung.
 
-Dank der Nähe zu Hochschuleinrichtungen wie der Hochschule für Technik und der Dualen Hochschule Baden-Württemberg ist die Nachfrage nach kleinen, gut angebundenen Wohnungen durch Studierende konstant hoch – eine ideale Gelegenheit für Eltern, ihren Kindern eine sichere und werthaltige Wohnlösung zu bieten. Gleichzeitig sprechen die gute Infrastruktur und das vielfältige Freizeitangebot auch Paare und Alleinstehende an, die urban wohnen und dennoch schnell im Grünen sein möchten.",true,,disabled,,showqualicontactform
-Baden_Württemberg,,,18533450,n,n,https://pictures.immobilienscout24.de/listings/996957c7-99ee-4125-b89a-32175d07f456-1929284803.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,1,,1900,südheim,false,160970295,,no_information,y,false,n,baden_württemberg,n,3,1,,,no_information,no_information,38,stuttgart,70199,no_information,no_information,,,false,no_information,no_information,n,flow:0,no_information,apartment,,2,,n,,"2,active",,deutschland,top,wohnung_kauf,n,false,19,,,002.01009418979,150000,profile0,,süd,2,true,n,Südheim,n,n,Süd,814193,1,Stuttgart,https://www.immobilienscout24.de/expose/160970295,2025-08-10,01:24:30,2025-08-09T10:18:18.000+02:00,"Provisionsfrei Dachgeschosswohnung in 70199 Stuttgart, Böblinger Str.",,,,,,disabled,,showqualicontactform
-Baden_Württemberg,central_heating,,5394580,n,y,https://pictures.immobilienscout24.de/listings/17b1bb8a-7266-4729-a126-ac71d9fd6129-1929333534.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,5,,1994,plieningen_ortsteil,false,160973055,1,gas,y,true,n,baden_württemberg,n,4,5,240,,no_information,energy_required,42,stuttgart,70599,well_kept,no_information,,D,false,garage,no_information,n,flow:0,no_information,ground_floor,,1,130,n,,"2,active",false,deutschland,top,wohnung_kauf,y,false,11,0,,001.5394580,197000,profile0,3,plieningen_bezirk,1,true,n,Plieningen_Ortsteil,n,n,Plieningen_Bezirk,381811,2,Stuttgart,https://www.immobilienscout24.de/expose/160973055,2025-08-10,01:24:34,2025-08-09T14:53:37.000+02:00,"Helle 1- Zimmer Wohnung mit großem Balkon und Garage - 5,5% Rendite für Kapitalanleger","Diese gepflegte 1-Zimmer-Wohnung mit Balkon befindet sich im Untergeschoss eines kleinen Mehrfamilienhauses mit insgesamt64 Wohneinheiten in ruhiger Wohnlage von Plieningen. 
-Die Wohnung verfügt über eine Wohnfläche von ca. 42 m² und eignet sich ideal für Singles, Pendler oder Studenten.
-Der gut geschnittene Wohn-/Schlafbereich bietet vielseitige Einrichtungsmöglichkeiten und ein angenehmes Wohngefühl. Die Einbauküche ist in einem separaten Raum, sodass Sie hier die Tür auch mal schließen können.
-Das Badezimmer ist funktional gestaltet und verfügt über Badewanne, Waschbecken und WC. 
-Große Fenster sorgen für viel Tageslicht und eine freundliche Atmosphäre in der gesamten Wohnung und vom Wohnzimmer aus gelangen Sie zum großen Balkon.
-Ein rundum attraktives Angebot für Kapitalanleger - besonders die Nähe zur Uni Hohenheim, zur Autobahn und zum Flughafen sind hier hervorzuhaben.",,"Die Wohnung befindet sich in Stuttgart-Plieningen, einem beliebten und grünen Stadtteil im Süden der Landeshauptstadt. Plieningen zeichnet sich durch seine dörflich geprägte Struktur, die Nähe zur Natur sowie eine hervorragende Verkehrsanbindung aus.
-Das Wohnumfeld ist ruhig und familienfreundlich, mit gepflegten Wohnhäusern, kleinen Parks und einer sehr guten Nachbarschaft. Einkaufsmöglichkeiten, Kindergärten, Schulen sowie Ärzte und Apotheken sind schnell erreichbar.
-Die Universität Hohenheim mit ihrem eindrucksvollen Schlosspark liegt ganz in der Nähe - ebenso wie die Filderklinik und das Max-Planck-Institut. Auch die Messe Stuttgart und der Flughafen sind in wenigen Minuten erreichbar.
-Die Anbindung an den öffentlichen Nahverkehr ist sehr gut: Über die U-Bahnlinie U3 ist man schnell in der Innenstadt, während Buslinien direkte Verbindungen in angrenzende Stadtteile bieten. Für Autofahrer besteht über die B27 ein schneller Anschluss an die A8 und das überregionale Straßennetz.
-Die Nähe zu Wiesen, Feldern und dem Naturschutzgebiet Echterdinger Eichwald macht Plieningen besonders attraktiv für Naturfreunde, Spaziergänger und Radfahrer.",,,disabled,,
-Baden_Württemberg,,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJTb21iYXJ0c3RyLiIsImhhdXNudW1tZXIiOiIzNiIsImtsc2lkIjo2MDU5ODEzLCJoYXVzbnVtbWVyenVzYXR6IjoiIiwicGx6IjoiNzA1NjUifQ%3D%3D,944285,n,y,https://pictures.immobilienscout24.de/listings/ef6c28f3-453a-4e5d-8bd1-8a14de86cbaf-1928032575.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,14,15,,rohr,false,160887599,,no_information,n,false,y,baden_württemberg,y,7,,350,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,,80,stuttgart,70565,no_information,normal,,,false,no_information,no_information,n,flow:0,no_information,apartment,,3,,n,,"2,active",true,deutschland,standard,wohnung_kauf,n,false,6,1,100 MBit/s,001.944285,390000,profile1_listingtype,2,vaihingen,3,true,y,Rohr,n,n,Vaihingen,160887599,3,Stuttgart,https://www.immobilienscout24.de/expose/160887599,2025-08-10,01:24:38,2025-08-09T15:45:43.000+02:00,- Sofort frei - 3-Zi.-Wohnung mit sonnigem Balkon in Stuttgart-Rohr - sofort frei -,"3 Zimmer-Eigentumswohnung im 1. Obergeschoss
+Dank ihrer Lage spricht die Wohnung ein breites Publikum an. Ihre gute Infrastruktur und das vielfältige Freizeitangebot machen sie attraktiv für alle, die urban wohnen und dennoch schnell im Grünen sein möchten.",,,,,,,,,
+Baden_Württemberg,self_contained_central_heating,,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJHcmF6ZXIgU3RyLiIsImhhdXNudW1tZXIiOiI1MyIsImtsc2lkIjo5OTUyMzExLCJoYXVzbnVtbWVyenVzYXR6IjoiIiwicGx6IjoiNzA0NjkifQ%3D%3D,18704584,n,n,https://pictures.immobilienscout24.de/listings/b3663f83-5705-44fe-aec6-a42c36279692-1929451805.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,18,,1911,feuerbach_mitte,false,,160982003,gas,n,false,y,baden_württemberg,y,6,1,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,74.56,stuttgart,70469,need_of_renovation,no_information,,false,no_information,no_information,n,flow:0,no_information,raised_ground_floor,,3.5,n,"2,active",true,deutschland,top,wohnung_kauf,n,false,7,250 MBit/s,002.01009660778,295000,profile0,,feuerbach,3,true,n,,Feuerbach_Mitte,n,n,Feuerbach,25001100,3,Stuttgart,https://www.immobilienscout24.de/expose/160982003,2025-08-11,01:20:44,2025-08-10T12:57:50.000+02:00,"Charmante 3,5-Zimmer-Altbau-Wohnung im Herzen von Stuttgart-Feuerbach","Diese stilvolle, ca. 75 m² große 3,5 -Zimmer-Wohnung besticht durch ihren typischen Jugendstil-Charme mit hohen Decken, Stuckverzierungen und großen Fenstern, die für viel Tageslicht sorgen. Die Immobilie aus dem Jahr 1911 steht unter Denkmalschutz und ist teilweise renovierungsbedürftig.
 
-ca. 80 qm Wohnfläche
+Die gut geschnittene Wohnung befindet sich im Hochparterre eines gepflegten 5-Familienhauses in günstiger zentrumsnaher Lage von Stuttgart-Feuerbach. Die Wohnung eignet sowohl für Singles, Paare, Familien als auch Kapitalanleger.
 
-sonniger schöner Balkon
+Die Wohnung besticht durch lichtdurchfluteten Räumen und hebt sich durch ihre schöne Aufteilung von anderen Wohnungen wesentlich ab. Durch den ideal geschnittenen Grundriss wird jeder Quadratmeter voll ausgenutzt und trägt zum Wohngefühl dieser idyllischen Wohnung bei.
 
-- sofort frei -",,,,,,,
-Baden_Württemberg,,,18533450,n,y,https://pictures.immobilienscout24.de/listings/95409c2b-a1ad-416a-aa91-c14214b648a8-1929284633.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,1,,1973,,false,160970276,,no_information,y,false,n,baden_württemberg,y,6,3,,,no_information,no_information,84,esslingen_kreis,70771,no_information,no_information,,,false,no_information,no_information,n,flow:0,no_information,apartment,,3.5,,n,,"2,active",,deutschland,top,wohnung_kauf,n,false,19,2,,002.01009418979,259000,profile0,,leinfelden_echterdingen,3,true,n,,n,n,Leinfelden_Echterdingen,814188,4,Esslingen_Kreis,https://www.immobilienscout24.de/expose/160970276,2025-08-10,01:24:42,2025-08-09T10:17:41.000+02:00,"Provisionsfrei Etagenwohnung in 70771 Leinfelden-Echterdingen, Reisachstr.",,,,,,disabled,,showqualicontactform
-Baden_Württemberg,central_heating,eyJvcnQiOiJSZW1zZWNrIGFtIE5lY2thciIsIm9ydHN0ZWlsIjoiIiwic3RyYXNzZSI6IkJlcmxpbmVyIFN0ci4iLCJoYXVzbnVtbWVyIjoiMTkiLCJrbHNpZCI6OTY5ODQ1NywiaGF1c251bW1lcnp1c2F0eiI6IiIsInBseiI6IjcxNjg2In0%3D,9594,n,y,https://pictures.immobilienscout24.de/listings/fdab1f3e-5746-4c8f-9d52-f030bc569db9-1929317625.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,11,,1973,,false,160972213,1,oil,y,true,y,baden_württemberg,y,7,3,390,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,energy_consumption,93,ludwigsburg_kreis,71686,no_information,sophisticated,,B,false,garage,no_information,y,flow:0,no_information,apartment,,3.5,58,n,,"2,active",true,deutschland,premium,wohnung_kauf,n,false,17,3,250 MBit/s,001.9594,379000,profile0,6,remseck_am_neckar,3,true,n,,n,n,Remseck_am_Neckar,4835,4,Ludwigsburg_Kreis,https://www.immobilienscout24.de/expose/160972213,2025-08-10,01:24:46,2025-08-09T13:11:41.000+02:00,"Modernisierte 3,5-Zimmer-Wohnung im 3. OG mit Aufzug, Balkon & Garage","Diese großzügige 3,5-Zimmer-Wohnung mit ca. 93 m² befindet sich im 3. OG eines gepflegten Mehrfamilienhauses aus dem Jahr 1973. Das Badezimmer ist ein echtes Highlight: deckenhoch gefliest, ausgestattet mit Bidet und randlosem WC, einer hochwertigen, eckigen Designer-Badewanne sowie einer Duschwanne. Ein maßgefertigter Waschtischunterschrank mit edler 12 mm starker Diamantglas-Waschtischplatte und Fronten mit 4 mm Spezialverglasung sowie ein passender Spiegelschrank runden den stilvollen Gesamteindruck ab. Ein weiterer Pluspunkt ist der uneinsichtige Südbalkon mit Markise, der sonnige Stunden im Freien verspricht. Zur Wohnung gehört ein TG-Stellplatz in einer abschließbaren Box mit elektrischem Tor.
+Über den nostalgischen Treppenaufgang gelangen Sie nach wenigen Stufen in die Wohnung. 
+Eingetreten - werden Sie im Flur- und Garderobenbereich willkommen geheißen. Von hier gelangen Sie rechtsseitig in ein großzügiges, lichtdurchflutetes Elternschlafzimmer sowie ein gemütliches Wohnzimmer. Linksseitig des Flures befindet sich die große, funktionale Ess-Küche mit Waschmaschinenanschluss und ausreichend Platz für einen Esstisch. 
+Über den Flur erreicht man das neuwertige Tageslicht-Bad mit bodenebener Dusche, WC, Waschbecken mit Waschtischunterschrank, Handtuchheizkörper und Fenster. Ein Kinderzimmer mit angrenzendem begehbaren Kleiderschrank, das ebenfalls als Home-Office-Arbeitsplatz oder als zweites Wohn- oder Lesezimmer genutzt werden kann, schließt diese gemütliche Wohnung ab. Das Untergeschoss hält mit 3 großzügigen Kellerräumen ausreichend Stauraum für Sie bereit.
+
+Die Wohnung ist leerstehend und kann sofort bezogen werden.
+Das Hausgeld beträgt 140 EUR pro Monat.
+
+Wir freuen uns, Ihnen diese ansprechende Wohnung bei einer Vor-Ort-Besichtigung vorzustellen! Vereinbaren Sie noch heute Ihren persönlichen Besichtigungstermin!","Highlights:
+- Idealtypischer Grundriss mit 3,5 Zimmern
+- Sofort beziehbar
+- Jugendstil-Charme
+- ca. 3,20 Meter hohe Decken
+- Helle Fensterfronten
+- Moderne Gas-Etagen-Heizung und Warmwasserspeicher aus dem  Jahre 2018
+- Neuwertiges Tageslicht-Bad mit bodenebener Dusche, WC, Handtuchheizkörper und Waschbecken  
+- Küche mit Essplatz
+- Waschmaschinenanschluss in der Wohnung
+- 3 abschließbare Kellerabstellräume, eines davon im Gewölbekeller
+- Zentrumsnahe Lage von Feuerbach","Die attraktive Hochparterrewohnung befindet sich im lebhaften Stadtteil Feuerbach in Stuttgart, einer Region, die urbanes Flair mit einer angenehmen Wohnatmosphäre kombiniert. Die Lage zeichnet sich durch ihre hervorragende Infrastruktur aus.
+
+Die Anbindung an den öffentlichen Nahverkehr ist ebenso optimal. Eine Bahnhaltestelle befindet sich nur wenige Meter entfernt, was eine rasche und problemlose Erreichbarkeit der umliegenden Stadtteile sowie des Zentrums von Stuttgart ermöglicht. Für Pendler oder Gelegenheitsfahrer ist die Autobahn gut zu erreichen, was eine schnelle Verbindung zu weiter entfernten Zielen bietet. 
+
+In der Nähe zur Wohnung findet man zahlreiche Freizeit- und Erholungsmöglichkeiten, die das vielfältige Angebot des charmanten Viertels abrunden. Feuerbach bietet zudem eine gute Mischung aus Kultur, Natur und urbanem Leben und lässt keine Wünsche offen.",140,,,,,,,,
+Baden_Württemberg,central_heating,,,5394580,n,y,https://pictures.immobilienscout24.de/listings/8fd615cd-36f3-4563-80c9-9ffec9eff014-1929459553.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,14,,1966,birkach_nord,false,disabled,160982432,oil,y,true,n,baden_württemberg,y,6,2,,no_information,70,stuttgart,70599,refurbished,no_information,,false,garage,no_information,n,flow:0,no_information,ground_floor,,3,n,"2,active",false,deutschland,top,wohnung_kauf,n,false,11,,001.5394580,298000,profile0,,birkach,3,true,n,,Birkach_Nord,n,n,Birkach,381970,3,Stuttgart,https://www.immobilienscout24.de/expose/160982432,2025-08-11,01:20:47,2025-08-10T13:37:54.000+02:00,Geräumige 3- Zimmer Wohnung mit Blick ins Grüne,,"Balkon, Keller, Duschbad, Einbauküche, Parkett, Fliesen
+
+Bemerkungen:
+Die Wohnung wurde 2017 saniert. Die 3-fach verglasten Fenster sind teilweise mit elektrischen Rollläden ausgestattet. Die gut geschnittenen Räume sind mit Parkett oder Bodenfliesen belegt. Die Wände vom Bad und WC sind gefliest, die Küche verfügt über einen Fliesenspiegel. Die Elektrische Installation sowie die Frischwasserleitungen innerhalb der Wohnung wurden 2017 erneuert. Die Küche bietet genügend Stauraum und ist mit einem Herd, Geschirrspüler und einer Mikrowelle ausgestattet. Zu der Wohnung gehören zwei geräumige Kellerabteile und eine Einzelgarage. Zusätzlich stehen den Hausbewohnern Gemeinschaftsparkplätze zur Verfügung. Der Waschmaschinenanschluss befindet sich in der gemeinschaftlichen Waschküche.","Die Immobilie befindet sich in einer ruhigen Wohngegend, ist aber gleichzeitig gut an das öffentliche Verkehrsnetz angeschlossen. Eine Bushaltestelle mit mehreren Buslinien liegt nur 3 Gehminuten entfernt. Durch die Lage von Birkach sind die Stuttgarter Innenstadt, der Flughafen und die Messe mit den öffentlichen Verkehrsmitteln gut erreichbar. Geschäfte für den täglichen Bedarf, wie auch Arztpraxen, Apotheke, Kindergarten und eine Schule sind zu Fuß zu erreichen.
+Infrastruktur (im Umkreis von 5 km):
+Apotheke, Lebensmittel-Discount, Allgemeinmediziner, Kindergarten, Grundschule, Hauptschule, Realschule, Gesamtschule, Öffentliche Verkehrsmittel",355,1,energy_consumption,G,234,0,,,
+Baden_Württemberg,,true,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJWZWllbGJydW5uZW53ZWciLCJoYXVzbnVtbWVyIjoiMjYiLCJrbHNpZCI6MTU0NjI3MzEsImhhdXNudW1tZXJ6dXNhdHoiOiIiLCJwbHoiOiI3MDM3MiJ9,16924112,n,y,https://pictures.immobilienscout24.de/listings/44da12f6-77c5-4baf-b6bb-0145b4297c87-1929493464.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,20,,1910,veielbrunnen,false,disabled,160984745,gas:electricity,n,false,y,baden_württemberg,y,7,1,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,82.12,stuttgart,70372,need_of_renovation,simple,,false,no_information,no_information,n,flow:0,no_information,no_information,,3,n,"2,active",true,deutschland,premium,wohnung_kauf,n,false,19,250 MBit/s,009.06041d57-de1b-4a48-987b-3b0882138407,310000,profile0,2,bad_cannstatt,3,true,n,,Veielbrunnen,n,n,Bad_Cannstatt,160984745,4,Stuttgart,https://www.immobilienscout24.de/expose/160984745,2025-08-11,01:20:51,2025-08-10T17:29:06.000+02:00,Attraktive 3-Zimmer-Wohnung mit Balkon in Bad Cannstatt – Zentrale Lage nähe Bahnhof und Carré,"Objektnr: 1067195 
 
 
-Weitere Informationen erhalten Sie in unserem Exposé, einfach eine Anfrage stellen. Ich freue mich auf Sie!",,"Aldingen ist einer von sechs Teilorten der Großen Kreisstadt Remseck am Neckar und bietet rund 8.500 Einwohnern ein Zuhause. Durch die zentrale Lage zwischen Ludwigsburg und Stuttgart profitieren Sie ebenso von urbanen Strukturen wie vom dörflichen Charme des Stadtteils.
-Kleinere Einkäufe erledigen Sie direkt bei einem Bummel durch den Ortskern, auf dem Geflügelhof Walker oder dem Hof Leutenecker, für größere Shopping-Touren zieht es Sie nach Ludwigsburg oder Stuttgart.
-Sonntags spazieren Sie mit Ihrer Familie am Neckar oder der Rems entlang, genießen die Aussicht vom Schlossberg oder schlendern durch das Regental. Abends zieht es Sie in eines der ausgezeichneten Restaurants im Ort wie das Paradiso oder Sie genießen die frische Luft bei einem Besuch im Biergarten Bootshaus.
-Auf Veranstaltungen wie der Kirbe, dem Feuerwehrfest oder dem Weihnachtsmarkt treffen Sie Menschen aus den übrigen Remsecker Stadtteilen Pattonville, Neckarrems, Neckargröningen, Hochberg und Hochdorf oder kommen mit Ihren Nachbarn ins Gespräch. 
-Nach Feierabend powern Sie sich sportlich in einem der Remsecker Vereine wie dem TV Aldingen oder dem Tennisclub aus oder treffen Ihre Freunde für ein entspanntes Glas Wein am Neckarufer. 
-Ihre Kinder besuchen eine der Schulen und Kindergärten direkt im Ort, nachmittags toben sie mit Ihren Freunden über die Wiesen rund um Aldingen oder treffen ihre Freunde im Jugendhaus.
-Einen renommierten Arbeitsplatz finden Sie in einem der namhaften Unternehmen in Ludwigsburg oder Stuttgart – beispielsweise aus der Automobilindustrie, dem Maschinenbau, der IT oder Elektrotechnik. Ins Büro fahren Sie bequem mit dem Fahrrad – bei schlechtem Wetter nutzen Sie die U-Bahn direkt ab Aldingen. Alternativ setzen Sie sich ins Auto und sind binnen wenigen Minuten auf der Bundestraße B27 oder der Autobahn A81.",true,,,,showqualicontactform
-Baden_Württemberg,central_heating,eyJvcnQiOiJLZXJuZW4gaW0gUmVtc3RhbCIsIm9ydHN0ZWlsIjoiIiwic3RyYXNzZSI6IldhaWJsaW5nZXIgU3RyLiIsImhhdXNudW1tZXIiOiI3MyIsImtsc2lkIjoxNDg0Nzc3NiwiaGF1c251bW1lcnp1c2F0eiI6IiIsInBseiI6IjcxMzk0In0%3D,20439753,n,y,https://pictures.immobilienscout24.de/listings/eda90430-c98f-4898-8b6a-3edf34890c9c-1929377691.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,18,,1966,,false,160976517,1,oil,n,false,y,baden_württemberg,y,6,2,316,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,energy_required,71,rems_murr_kreis,71394,well_kept,no_information,,E,false,outside,no_information,n,flow:0,no_information,apartment,,3,145,n,,"2,active",true,deutschland,top,wohnung_kauf,n,false,7,,1000 MBit/s,002.01017065734,298000,profile0,3,kernen_im_remstal,3,true,n,,n,n,Kernen_im_Remstal,25-1053,3,Rems_Murr_Kreis,https://www.immobilienscout24.de/expose/160976517,2025-08-10,01:24:49,2025-08-09T22:22:07.000+02:00,"Charmante 3-Zimmer-Wohnung – bezugsfrei, möbliert & mit Stellplatz","Diese charmante, 71 m² große 3-Zimmer-Wohnung im 3. Obergeschoss eines gepflegten 6-Familienhauses überzeugt durch ihre sofortige Bezugsfertigkeit und die vollständige Möblierung perfekt für Paare, die ohne Umzugsstress direkt einziehen möchten geeignet. 
+Diese charmante Wohnung befindet sich in einer historischen Immobilie aus dem Jahr 1897 im Herzen von Bad Cannstatt. Mit einer Wohnfläche von ca. 82 m² bietet sie viel Potenzial für individuelle Gestaltung und ist ab sofort bezugsfrei.
+
+Die Wohnung verfügt über einen großzügigen Fliesenboden, hohe Decken und größtenteils kunststoffverglaste Fenster aus dem Jahr 1997. Im selben Jahr wurden die Wasserleitungen erneuert und die Fliesen im Wohnbereich verlegt. Die Elektrik wurde zuletzt im Jahr 1986 modernisiert. Die Küche ist noch mit den ursprünglichen Fenstern ausgestattet und bietet Zugang zum Balkon, der ideal ist, um die Sonne zu genießen oder den Tag entspannt ausklingen zu lassen.
+
+Das Tageslichtbad ist mit einer Dusche, einer Badewanne sowie zwei Waschbecken ausgestattet und bietet ausreichend Platz. Die Beheizung erfolgt über eine effiziente Gas-Etagenheizung.
+
+Im Jahr 2024 wurde das Dach der Immobilie vollständig erneuert, was die Substanz des Gebäudes nachhaltig stärkt. Die Wohnung ist renovierungsbedürftig und bietet somit die Möglichkeit, sie ganz nach eigenen Wünschen und Vorstellungen zu gestalten.
+
+Die zentrale Lage in Bad Cannstatt ermöglicht eine hervorragende Anbindung an öffentliche Verkehrsmittel, Einkaufsmöglichkeiten und das lebendige Stadtleben. Die Nähe zum Bahnhof und zum Cannstatter Carré macht diese Immobilie besonders attraktiv für alle, die urbanes Wohnen schätzen. Die Wohnung eignet sich sowohl zur Vermietung als auch für den eigenen Gebrauch.
+
+","+ In zentrumsnaher Umgebung in Citylage, zur Vermietung, aber auch für Selbstnutzer
++ Hohes Maß an Erholung im Freien dank eines Balkons
++ Kreatives Potenzial dank Renovierungsbedarf, zuletzt instandgesetzt: ca. 1997
++ Dacherneuerung in 2024
++ Staufläche und Sorgenfreiheit dank 2 Kellerräume, einer Hausreinigung und eines Winterdienstes","Lage: Attraktive Citylage stellt Top-Auswahl an Möglichkeiten und Veranstaltungen bereit
+Bildung und Betreuung: Nur ca. 800 m zu Kindergarten und Schule - ideale Verhältnisse für Ihre Familie
+Nahversorgung: Einkauf schnell erledigt: Supermarkt, Apotheke, Postfiliale und Bankfiliale in max. 5 Gehminuten
+Anbindung: Gut erreichbar - nächste Bushaltestelle, nächster Bahnhof sowie nächste Autobahn",,,energy_required,E,147.4,2,true,1997,
+Baden_Württemberg,central_heating,,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJUaG9tYXMtTWFubi1TdHIuIiwiaGF1c251bW1lciI6IjI1Iiwia2xzaWQiOjk5NDA5MjYsImhhdXNudW1tZXJ6dXNhdHoiOiIiLCJwbHoiOiI3MDQ2OSJ9,20651613,n,y,https://pictures.immobilienscout24.de/listings/31db59ea-6fbd-4393-9bfd-dd33498d9463-1929488084.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,10,4,1980,hohe_warte,true,,160984124,oil,y,false,n,baden_württemberg,y,3,3,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,25,24,stuttgart,70469,need_of_renovation,simple,,false,no_information,Thomas-Mann-Stra&szlig;e,n,flow:0,Thomas-Mann-Straße,apartment,,1,n,"2,active",true,deutschland,top,wohnung_kauf,y,false,7,250 MBit/s,001.21702693,129000,profile1_listingtype,3,feuerbach,1,true,n,,Hohe_Warte,n,n,Feuerbach,160984124,1,Stuttgart,https://www.immobilienscout24.de/expose/160984124,2025-08-11,01:20:55,2025-08-10T17:03:25.000+02:00,1-Zimmer-Wohnung mit EBK in Stuttgart - ideal für Singles oder Kapitalanleger,"Diese schöne, helle Wohnung liegt in der 2. Etage in einem 5- Parteien- Mehrfamilienhaus in Stuttgart- Feuerbach, in absolut ruhiger Lage mit ruhigen Mitbewohnern.
+Sie verfügt über einen kleinen Balkon mit unverbaubarer Aussicht. 
+Eine Einbauküche mit Herd, Backofen und Spüle ist vorhanden,
+Das Badezimmer verfügt über eine Duschkabine, Waschbecken und WC.
+Eine Einkaufsmöglichkeit (Supermarkt) ist fußläufig in drei Minuten erreichbar, das Sportzentrum Feuerbach und eine Straßenbahnhaltestelle in weniger als zehn Minuten. Das Zentrum von Feuerbach liegt gut einen Kilometer entfernt.
+Das Haus liegt außerdem nahe dem Waldrand und bietet Möglichkeiten für entspannende Spaziergänge.
+Ein Kellerabteil gehört ebenfalls dazu.
+
+Derzeit ist das Apartment an einen zuverlässigen und ruhigen Mieter vermietet. Die monatlichen Mieteinnahmen liegen bei 420,00 €.",,,100,,energy_consumption,E,133.8,2,,,
+Baden_Württemberg,central_heating,true,eyJvcnQiOiJGZWxsYmFjaCIsIm9ydHN0ZWlsIjoiIiwic3RyYXNzZSI6IkhvaGVuem9sbGVybnN0ci4iLCJoYXVzbnVtbWVyIjoiMjMiLCJrbHNpZCI6MTk0MTQ3NDMsImhhdXNudW1tZXJ6dXNhdHoiOiIiLCJwbHoiOiI3MDczNiJ9,13086896,n,y,https://pictures.immobilienscout24.de/listings/bd82ec55-527a-4588-b881-8882f92151cc-1929350467.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,7,,1973,,false,disabled,160974304,oil,n,true,y,baden_württemberg,y,6,3,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,84,rems_murr_kreis,70736,well_kept,normal,,false,underground_garage,no_information,y,flow:0,no_information,apartment,,3,n,"2,active",true,deutschland,schaufenster,wohnung_kauf,n,false,7,1000 MBit/s,001.13086896,299000,profile0,,fellbach,3,true,n,,,n,n,Fellbach,2431,4,Rems_Murr_Kreis,https://www.immobilienscout24.de/expose/160974304,2025-08-11,01:20:58,2025-08-09T16:54:42.000+02:00,WEITBLICK: Ihr neues Zuhause über den Dächern,"Willkommen in Ihrem neuen Zuhause über den Dächern von Fellbach-Schmiden. Die zum Verkauf stehende 3-Zimmer-Wohnung mit einer Wohnfläche von ca. 84 m² befindet sich im 8. Obergeschoss eines Mehrfamilienhauses und bietet einen hervorragenden Weitblick Richtung Süden und Osten. 
+
+Über einen Aufzug gelangen Sie komfortabel zu Ihrer Wohnung. Nachdem Sie die Wohnung betreten haben, gelangen Sie gegenüber der Eingangstür in ein flexibel nutzbares Zimmer, das sich hervorragend als Kinderzimmer, Büro oder Gästezimmer eignet. Direkt daneben befindet sich das großzügige Schlafzimmer, das Ihnen ausreichend Platz für Ihre persönliche Einrichtung und einen Zugang auf den Balkon bietet. Auf dieser Seite des Flurs gibt es einen weiteren Abstellraum, in dem zusätzliche Verstauungsmöglichkeiten vorhanden sind. Auf der anderen Flurseite befindet sich das Badezimmer mit komfortabler Badewanne und Dusche sowie Waschmaschinenanschluss. Angrenzend befindet sich ein separates WC. Einen Raum weiter befindet sich auf der linken Seite die gut ausgestattete Küche. Diese überzeugt nicht nur mit ihrer Funktionalität, sondern auch mit einem der beiden Balkone, mit einem ebenfalls beeindruckenden Weitblick. Am Ende des Flurs betreten Sie das lichtdurchflutete Wohnzimmer, dessen Raumschnitt Ihnen mehrere Einrichtungsalternativen ermöglicht. Über das geräumige Wohnzimmer gelangen Sie zum Highlight der Wohnung. Ein zweiter Balkon mit Süd-Ost Ausrichtung und beeindruckendem Weitblick bis zum Württemberg. Zudem steht auf diesem Balkon eine exklusive Sonderkonstruktion mit rahmenlosen Vollglas-Scheiben, die je nach Wunsch entweder einzeln oder komplett geöffnet oder auch vollständig geschlossen werden können. Ihr ganz persönlicher Wintergarten erwartet Sie zu jeder Jahreszeit und bietet bei Bedarf noch einen exzellenten Wetterschutz. Große Kunststofffenster sorgen in der gesamten Wohnung für ein angenehmes Tageslicht und ein freundliches Wohnklima. Ein eigenes Kellerabteil bietet zusätzlichen Stauraum, während ein abschließbarer Stellplatz in der Tiefgarage Ihnen bequemes und wettergeschütztes Parken ermöglicht. Die Wohnanlage stellt darüber hinaus einen gemeinschaftlich nutzbaren Fahrrad- und Kinderwagenraum und einen Waschraum mit münzbetriebenen Waschmaschinen und Trocknern zur Verfügung. Am Hauseingang befindet sich zudem ein Treppenlift. 
+
+Diese Wohnung vereint durchdachte Raumaufteilung, lichtdurchflutete Räume und zwei Balkone mit beeindruckender Aussicht in ruhiger Lage. Überzeugen Sie sich selbst bei einer persönlichen Besichtigung. Ich freue mich über Ihre Anfrage.",,"Nur 10 km nordöstlich der Landeshauptstadt Stuttgart liegt die 46.000-Einwohner-Stadt Fellbach. Sie liegt im wirtschaftlich starken Rems-Murr-Kreis und ist durch ihre schöne Innenstadt und die umliegenden Weinberge, Felder und Wälder ein lebenswerter Wohnort. Das Stadtgebiet gliedert sich in drei lebendige Stadtteile: die Kernstadt Fellbach sowie die Ortsteile Schmiden und Oeffingen. Die Kernstadt bildet mit ihrer zentralen Infrastruktur, Einkaufsmöglichkeiten, Schulen, Kultureinrichtungen, Restaurants und dem S-Bahnhof das wirtschaftliche und soziale Herz der Stadt. Nördlich schließt sich der familienfreundliche Stadtteil Schmiden an, geprägt von Wohngebieten, Sportanlagen und Bildungszentren. Östlich liegt Oeffingen mit seinem dörflichen Charakter, angrenzend an Felder und Wälder. Fellbach ist durch die Bundesstraßen B14 und B29 sowie den nahegelegenen Anschluss an die Autobahnen A8 und A81 hervorragend in das regionale und überregionale Straßennetz eingebunden. Der öffentliche Nahverkehr ist durch mehrere Stadtbahnlinien U1, U9, U14 sowie die S-Bahn-Linie S2 hervorragend angebunden und garantiert schnelle Verbindungen nach Stuttgart, Waiblingen, Esslingen und Ludwigsburg. Über den Bahnhof Fellbach ist zudem der Anschluss an den Regionalverkehr gewährleistet. Zwar bildet Fellbach das wirtschaftliche, soziale und kulturelle Herz der Stadt. Schmiden besitzt jedoch ein eigenständiges liebenswertes Flair und ist weit davon entfernt, ""nur"" Wohnsiedlung zu sein.",364,1,energy_consumption,E,156,,,2023,
+Baden_Württemberg,central_heating,,eyJvcnQiOiJLZXJuZW4gaW0gUmVtc3RhbCIsIm9ydHN0ZWlsIjoiIiwic3RyYXNzZSI6IldhaWJsaW5nZXIgU3RyLiIsImhhdXNudW1tZXIiOiI3MyIsImtsc2lkIjoxNDg0Nzc3NiwiaGF1c251bW1lcnp1c2F0eiI6IiIsInBseiI6IjcxMzk0In0%3D,20439753,n,y,https://pictures.immobilienscout24.de/listings/eda90430-c98f-4898-8b6a-3edf34890c9c-1929377691.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,18,,1966,,false,,160976517,oil,n,false,y,baden_württemberg,y,6,2,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,71,rems_murr_kreis,71394,well_kept,no_information,,false,outside,no_information,n,flow:0,no_information,apartment,,3,n,"2,active",true,deutschland,top,wohnung_kauf,n,false,7,1000 MBit/s,002.01017065734,298000,profile0,3,kernen_im_remstal,3,true,n,,,n,n,Kernen_im_Remstal,25-1053,3,Rems_Murr_Kreis,https://www.immobilienscout24.de/expose/160976517,2025-08-11,01:21:02,2025-08-09T22:22:07.000+02:00,"Charmante 3-Zimmer-Wohnung – bezugsfrei, möbliert & mit Stellplatz","Diese charmante, 71 m² große 3-Zimmer-Wohnung im 3. Obergeschoss eines gepflegten 6-Familienhauses überzeugt durch ihre sofortige Bezugsfertigkeit und die vollständige Möblierung perfekt für Paare, die ohne Umzugsstress direkt einziehen möchten geeignet. 
 
 Der lichtdurchflutete Wohnbereich mit Zugang zum sonnigen Balkon lädt zum Entspannen ein. Direkt angrenzend befindet sich das Esszimmer, das eine gemütliche Atmosphäre für gemeinsame Mahlzeiten schafft. Das Schlafzimmer bietet ausreichend Platz für Ruhe und Erholung.
 
@@ -198,8 +115,8 @@ Einkaufsmöglichkeiten des täglichen Bedarfs, Bäckereien, Cafés sowie Ärzte 
 
 Für Pendler bietet die Lage eine sehr gute Verkehrsanbindung: Der Bahnhof Rommelshausen ist nur ca. 5 Minuten zu Fuß entfernt und ermöglicht eine schnelle Verbindung nach Stuttgart und in die umliegenden Städte. Über die nahegelegene B29 (in ca. 5 Minuten mit dem PKW zu erreichen) erreichen Sie die Landeshauptstadt Stuttgart und weitere Ziele im Remstal bequem mit dem Auto.
 
-Zahlreiche Rad- und Wanderwege, Weinberge sowie Grünanlagen vor Ort laden in der Freizeit zu Spaziergängen, sportlichen Aktivitäten und Erholung im Freien ein.",,,,,
-Baden_Württemberg,central_heating,,5757269,n,n,https://pictures.immobilienscout24.de/listings/3eaf7331-68d3-4cf1-84fe-f8145c34f35d-1925500845.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,28,,1960,heslach,false,160686412,,gas,y,false,y,baden_württemberg,y,4,2,256,,no_information,energy_consumption,36.38,stuttgart,70199,no_information,no_information,,,false,no_information,no_information,y,flow:0,no_information,roof_storey,,2,230,n,2014,"2,active",false,deutschland,top,wohnung_kauf,n,false,12,5,,001.5757269,175000,profile0,5,süd,2,true,n,Heslach,n,n,Süd,KWM 446,1,Stuttgart,https://www.immobilienscout24.de/expose/160686412,2025-08-10,01:24:53,2025-08-09T18:39:55.000+02:00,"Top-Kapitalanlage! Charmante Wohnung im 5.OG mit Aufzug, Nähe Marienhospital in Stuttgart-Süd!","Bei der angegebenen Fläche von 36,38 qm handelt es sich um Wohn- und Nutzfläche, die sich wie folgt verteilt:
+Zahlreiche Rad- und Wanderwege, Weinberge sowie Grünanlagen vor Ort laden in der Freizeit zu Spaziergängen, sportlichen Aktivitäten und Erholung im Freien ein.",316,1,energy_required,E,145,,,,
+Baden_Württemberg,central_heating,,,5757269,n,n,https://pictures.immobilienscout24.de/listings/3eaf7331-68d3-4cf1-84fe-f8145c34f35d-1925500845.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,28,,1960,heslach,false,disabled,160686412,gas,y,false,y,baden_württemberg,y,4,2,,no_information,36.38,stuttgart,70199,no_information,no_information,,false,no_information,no_information,y,flow:0,no_information,roof_storey,,2,n,"2,active",false,deutschland,top,wohnung_kauf,n,false,12,,001.5757269,175000,profile0,5,süd,2,true,n,showqualicontactform,Heslach,n,n,Süd,KWM 446,1,Stuttgart,https://www.immobilienscout24.de/expose/160686412,2025-08-11,01:21:06,2025-08-09T18:39:55.000+02:00,"Top-Kapitalanlage! Charmante Wohnung im 5.OG mit Aufzug, Nähe Marienhospital in Stuttgart-Süd!","Bei der angegebenen Fläche von 36,38 qm handelt es sich um Wohn- und Nutzfläche, die sich wie folgt verteilt:
 1-Zimmer-Wohnung mit ca. 27,54 qm Wohnfläche + in die Wohnung integrierte und ausgebaute Kammer mit ca. 8,84 Nutzfläche = 36,38 qm Wohn- und Nutzfläche.
 
 *******************************
@@ -264,30 +181,143 @@ Nur wenige Schritte entfernt liegt der belebte Erwin-Schoettle-Platz – ein zen
 
 Ebenfalls gut erreichbar ist der bekannte Marienplatz, der mit seiner urbanen Atmosphäre, vielfältiger Gastronomie und der Zahnradbahn „Zacke“ ein beliebter Treffpunkt im Stuttgarter Süden ist.
 
-Stuttgart-Heslach verbindet somit auf ideale Weise ein pulsierendes, urbanes Umfeld mit hoher Lebensqualität und einer hervorragenden Infrastruktur – ideal für alle, die zentrumsnah und dennoch ruhig wohnen möchten.",,,disabled,1,showqualicontactform
-Baden_Württemberg,electric_heating,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJXYWlibGluZ2VyIFN0ci4iLCJoYXVzbnVtbWVyIjoiODIiLCJrbHNpZCI6MjA5Mjg1NjksImhhdXNudW1tZXJ6dXNhdHoiOiIiLCJwbHoiOiI3MDM3MiJ9,18949291,n,y,https://pictures.immobilienscout24.de/listings/8d485334-d6ae-4b58-a730-2b3538773ce4-1929304866.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,15,,1968,seelberg,true,160971058,,electricity,y,false,n,baden_württemberg,y,10,2,280,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,82,,104,stuttgart,70372,need_of_renovation,simple,,,false,no_information,Waiblinger Stra&szlig;e,n,flow:0,Waiblinger_Straße,apartment,,4,,n,,"2,active",true,deutschland,standard,wohnung_kauf,n,false,7,2,175 MBit/s,009.2543903f-096e-4551-88c5-44e4a64d5523,790000,profile1_listingtype,4,bad_cannstatt,4,true,n,Seelberg,n,n,Bad_Cannstatt,160971058,5,Stuttgart,https://www.immobilienscout24.de/expose/160971058,2025-08-10,01:24:56,2025-08-09T11:52:41.000+02:00,Charmante 4-Raum-Altbauwohnung mit Einbauküche in Stuttgart,"Helle 4-Zimmer-Wohnung mit Balkon, Einbauküche & Gäste-WC – ab 09.08.2025 verfügbar
+Stuttgart-Heslach verbindet somit auf ideale Weise ein pulsierendes, urbanes Umfeld mit hoher Lebensqualität und einer hervorragenden Infrastruktur – ideal für alle, die zentrumsnah und dennoch ruhig wohnen möchten.",256,,energy_consumption,,230,5,,2014,1
+Baden_Württemberg,central_heating,,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJTY2hpbHRhY2hlciBTdHIuIiwiaGF1c251bW1lciI6IjM4Iiwia2xzaWQiOjk5NDMwMzksImhhdXNudW1tZXJ6dXNhdHoiOiIiLCJwbHoiOiI3MDU2OSJ9,4872874,n,n,https://pictures.immobilienscout24.de/listings/2a873d77-9fd8-4a25-a46c-f49a18e14811-1929312181.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,7,6,1958,kaltental,false,,160971782,gas,n,true,y,baden_württemberg,n,5,2,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,56,stuttgart,70569,well_kept,normal,,false,no_information,no_information,n,flow:0,no_information,roof_storey,,3,n,"2,active",true,deutschland,standard,wohnung_kauf,n,false,11,250 MBit/s,001.4872874,227000,profile0,,süd,3,true,n,showqualicontactform,Kaltental,n,n,Süd,44300104-084719,2,Stuttgart,https://www.immobilienscout24.de/expose/160971782,2025-08-11,01:21:10,2025-08-09T12:40:38.000+02:00,3-Zi-DG- S-Kaltental - leer - WG mgl.,,"- 3 Zimmer
+- Tageslichtbad
+- Einbauküche
+- Laminat, Fliesen
+- Gaszentralheizung neu
+- Innen ca. 1994 umfassend renoviert",,177,,energy_consumption,F,177,,,2025,
+Baden_Württemberg,,,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJaYW1lbmhvZnN0ci4iLCJoYXVzbnVtbWVyIjoiNTQiLCJrbHNpZCI6NjA1ODIyNSwiaGF1c251bW1lcnp1c2F0eiI6IiIsInBseiI6IjcwMTk3In0%3D,19268111,n,n,https://pictures.immobilienscout24.de/listings/321e76c8-c3d8-48d2-a265-95a077a42ce4-1929469607.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,7,,1964,kräherwald,false,,160983086,no_information,n,false,n,baden_württemberg,n,7,2,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,75,stuttgart,70197,no_information,no_information,,false,garage,no_information,n,flow:0,no_information,ground_floor,,2.5,n,"2,active",true,deutschland,top,wohnung_kauf,n,false,17,16 MBit/s,002.01010979314,360000,profile0,,west,2,true,n,showqualicontactform,Kräherwald,n,n,West,y7_P5A3SYz-1#ihtKo9,3,Stuttgart,https://www.immobilienscout24.de/expose/160983086,2025-08-11,01:21:14,2025-08-10T14:31:59.000+02:00,EG-Wohnung mit schönem großen Garten oder OG-Wohnung mit schönem Wintergarten u. Garten zu verkaufen,,,,150,1,,,,,,,
+Baden_Württemberg,self_contained_central_heating,,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJO%2FHJuYmVyZ2VyIFN0ci4iLCJoYXVzbnVtbWVyIjoiMTciLCJrbHNpZCI6NTg4NzAxMiwiaGF1c251bW1lcnp1c2F0eiI6IiIsInBseiI6IjcwMzc0In0%3D,16924112,n,y,https://pictures.immobilienscout24.de/listings/08ec006d-9403-4296-b930-cd2b0d2fe6eb-1929412666.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,8,,1953,schmidener_vorstadt,false,disabled,160979495,gas,y,false,y,baden_württemberg,n,4,2,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,47.54,stuttgart,70374,well_kept,normal,,false,no_information,no_information,n,flow:0,no_information,no_information,,2,n,"2,active",true,deutschland,top,wohnung_kauf,n,false,19,250 MBit/s,009.06041d57-de1b-4a48-987b-3b0882138407,199500,profile0,1,bad_cannstatt,2,true,y,,Schmidener_Vorstadt,n,n,Bad_Cannstatt,160979495,2,Stuttgart,https://www.immobilienscout24.de/expose/160979495,2025-08-11,01:21:18,2025-08-10T08:13:37.000+02:00,Zentrale 2-Zimmer-Wohnung in Bad Cannstatt mit Balkon und viel Stauraum,"Objektnr: 1067476 
 
-Diese großzügige Wohnung im 2. Obergeschoss bietet Ihnen ein komfortables Zuhause mit vier gut geschnittenen Zimmern, einem Badezimmer mit Badewanne sowie einem separaten WC mit Dusche.
+Diese charmante 2-Zimmer-Wohnung im 1. Obergeschoss eines gepflegten Mehrfamilienhauses überzeugt mit einem durchdachten Grundriss, einem sonnigen Balkon sowie praktischen Nebenräumen – und das in äußerst verkehrsgünstiger Lage.
 
-Ein Highlight ist der sonnige Balkon, der zum Entspannen und Genießen einlädt. Die vorhandene Einbauküche ist bereits im Kaufpreis enthalten und macht den Einzug besonders praktisch.
+Das Haus wurde im Jahr 1953 erbaut und beherbergt insgesamt 10 Wohneinheiten. Die Wohnung selbst bietet ein helles Wohnzimmer mit Zugang zum Balkon, ein ruhiges Schlafzimmer, eine separate Küche mit vorhandener Einbauküche sowie ein Badezimmer mit Badewanne. Die Beheizung erfolgt über eine Gas-Etagenheizung aus dem Jahr 2013.
 
-Zusätzlichen Stauraum finden Sie im eigenen Kellerraum. Das monatliche Hausgeld beträgt aktuell 280,00 €.
+Ein besonderes Plus sind die großzügigen Nebenräume: Zur Wohnung gehören zwei Abstellräume im Untergeschoss sowie ein weiterer im Dachgeschoss. Zusätzlich ist eine eigene SAT-Anlage installiert, die den Anschluss von zwei Endgeräten ermöglicht.
 
-Die Wohnung befindet sich in einem renovierungsbedürftigen Zustand – eine ideale Gelegenheit, Ihr neues Zuhause ganz nach Ihren eigenen Vorstellungen zu gestalten.",,"Attraktive Lage in Stuttgart-Bad Cannstatt – perfekte Anbindung & hoher Freizeitwert!
+Das monatliche Hausgeld beträgt 291 Euro, davon sind ca. 93 Euro auf den Mieter umlegbar, ca. 197 Euro nicht umlegbar – eine faire Kostenstruktur, die sowohl Eigennutzern als auch Kapitalanlegern Planungssicherheit bietet.
 
-Diese charmante Wohnung in der Waiblinger Straße 82 überzeugt durch ihre zentrale und dennoch ruhige Lage im beliebten Stadtteil Bad Cannstatt. Einkaufsmöglichkeiten, Gastronomie, Ärzte und Schulen sind bequem zu Fuß erreichbar.
+Lage – urban, lebendig, bestens angebunden
 
-Die Stadtbahnhaltestelle „Uff Kirchhof“ (U2) liegt nur wenige Gehminuten entfernt und bringt Sie in kürzester Zeit in die Stuttgarter Innenstadt. Der nahegelegene Bahnhof Bad Cannstatt bietet zudem perfekte Anbindungen mit S-Bahn und Regionalzügen. Über die B10/B14 sind Sie auch mit dem Auto bestens vernetzt.
+Die Wohnung liegt im gefragten Stadtteil Stuttgart-Bad Cannstatt, nur wenige Schritte von einer U-Bahn-Station entfernt. Damit genießen Sie eine hervorragende Anbindung an die Stuttgarter Innenstadt, Universitäten und die umliegenden Stadtteile – ideal für Pendler oder Stadtliebhaber. Einkaufsmöglichkeiten, Cafés, Apotheken und alle Einrichtungen des täglichen Bedarfs befinden sich in direkter Nähe. Auch Erholung kommt nicht zu kurz: Der Neckar, der Rosensteinpark und weitere Grünanlagen sind schnell erreichbar.
 
-Für Erholung und Freizeit stehen Ihnen der Neckar, der Kurpark, das Mineralbad Cannstatt sowie die Wilhelma in unmittelbarer Umgebung zur Verfügung – ideal zum Spazieren, Sporttreiben oder Entspannen.
+Fazit:
+Eine rundum attraktive Wohnung – mit Balkon, Einbauküche und vielseitigen Nutzungsmöglichkeiten – in verkehrsgünstiger Lage. Ideal zum Selbstbezug oder als langfristig stabile Kapitalanlage.
 
-Fazit: Zentrale Lage, beste Infrastruktur und vielfältige Freizeitmöglichkeiten – perfekt für Eigennutzer oder Kapitalanleger!",,,,,
-Baden_Württemberg,central_heating,eyJvcnQiOiJGZWxsYmFjaCIsIm9ydHN0ZWlsIjoiIiwic3RyYXNzZSI6IkhvaGVuem9sbGVybnN0ci4iLCJoYXVzbnVtbWVyIjoiMjMiLCJrbHNpZCI6MTk0MTQ3NDMsImhhdXNudW1tZXJ6dXNhdHoiOiIiLCJwbHoiOiI3MDczNiJ9,13086896,n,y,https://pictures.immobilienscout24.de/listings/bd82ec55-527a-4588-b881-8882f92151cc-1929350467.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,7,,1973,,false,160974304,1,oil,n,true,y,baden_württemberg,y,6,3,364,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,energy_consumption,84,rems_murr_kreis,70736,well_kept,normal,,E,false,underground_garage,no_information,y,flow:0,no_information,apartment,,3,156,n,2023,"2,active",true,deutschland,top,wohnung_kauf,n,false,7,,1000 MBit/s,001.13086896,299000,profile0,,fellbach,3,true,n,,n,n,Fellbach,2431,4,Rems_Murr_Kreis,https://www.immobilienscout24.de/expose/160974304,2025-08-10,01:25:00,2025-08-09T16:54:42.000+02:00,WEITBLICK: Ihr neues Zuhause über den Dächern,"Willkommen in Ihrem neuen Zuhause über den Dächern von Fellbach-Schmiden. Die zum Verkauf stehende 3-Zimmer-Wohnung mit einer Wohnfläche von ca. 84 m² befindet sich im 8. Obergeschoss eines Mehrfamilienhauses und bietet einen hervorragenden Weitblick Richtung Süden und Osten. 
+Gern stellen wir Ihnen diese Immobilie bei einem persönlichen Besichtigungstermin näher vor.
 
-Über einen Aufzug gelangen Sie komfortabel zu Ihrer Wohnung. Nachdem Sie die Wohnung betreten haben, gelangen Sie gegenüber der Eingangstür in ein flexibel nutzbares Zimmer, das sich hervorragend als Kinderzimmer, Büro oder Gästezimmer eignet. Direkt daneben befindet sich das großzügige Schlafzimmer, das Ihnen ausreichend Platz für Ihre persönliche Einrichtung und einen Zugang auf den Balkon bietet. Auf dieser Seite des Flurs gibt es einen weiteren Abstellraum, in dem zusätzliche Verstauungsmöglichkeiten vorhanden sind. Auf der anderen Flurseite befindet sich das Badezimmer mit komfortabler Badewanne und Dusche sowie Waschmaschinenanschluss. Angrenzend befindet sich ein separates WC. Einen Raum weiter befindet sich auf der linken Seite die gut ausgestattete Küche. Diese überzeugt nicht nur mit ihrer Funktionalität, sondern auch mit einem der beiden Balkone, mit einem ebenfalls beeindruckenden Weitblick. Am Ende des Flurs betreten Sie das lichtdurchflutete Wohnzimmer, dessen Raumschnitt Ihnen mehrere Einrichtungsalternativen ermöglicht. Über das geräumige Wohnzimmer gelangen Sie zum Highlight der Wohnung. Ein zweiter Balkon mit Süd-Ost Ausrichtung und beeindruckendem Weitblick bis zum Württemberg. Zudem steht auf diesem Balkon eine exklusive Sonderkonstruktion mit rahmenlosen Vollglas-Scheiben, die je nach Wunsch entweder einzeln oder komplett geöffnet oder auch vollständig geschlossen werden können. Ihr ganz persönlicher Wintergarten erwartet Sie zu jeder Jahreszeit und bietet bei Bedarf noch einen exzellenten Wetterschutz. Große Kunststofffenster sorgen in der gesamten Wohnung für ein angenehmes Tageslicht und ein freundliches Wohnklima. Ein eigenes Kellerabteil bietet zusätzlichen Stauraum, während ein abschließbarer Stellplatz in der Tiefgarage Ihnen bequemes und wettergeschütztes Parken ermöglicht. Die Wohnanlage stellt darüber hinaus einen gemeinschaftlich nutzbaren Fahrrad- und Kinderwagenraum und einen Waschraum mit münzbetriebenen Waschmaschinen und Trocknern zur Verfügung. Am Hauseingang befindet sich zudem ein Treppenlift. 
+","+ Durchdachter Grundriss – Helles Wohnzimmer mit Balkon, separates Schlafzimmer und Küche mit Einbauküche.
 
-Diese Wohnung vereint durchdachte Raumaufteilung, lichtdurchflutete Räume und zwei Balkone mit beeindruckender Aussicht in ruhiger Lage. Überzeugen Sie sich selbst bei einer persönlichen Besichtigung. Ich freue mich über Ihre Anfrage.",,"Nur 10 km nordöstlich der Landeshauptstadt Stuttgart liegt die 46.000-Einwohner-Stadt Fellbach. Sie liegt im wirtschaftlich starken Rems-Murr-Kreis und ist durch ihre schöne Innenstadt und die umliegenden Weinberge, Felder und Wälder ein lebenswerter Wohnort. Das Stadtgebiet gliedert sich in drei lebendige Stadtteile: die Kernstadt Fellbach sowie die Ortsteile Schmiden und Oeffingen. Die Kernstadt bildet mit ihrer zentralen Infrastruktur, Einkaufsmöglichkeiten, Schulen, Kultureinrichtungen, Restaurants und dem S-Bahnhof das wirtschaftliche und soziale Herz der Stadt. Nördlich schließt sich der familienfreundliche Stadtteil Schmiden an, geprägt von Wohngebieten, Sportanlagen und Bildungszentren. Östlich liegt Oeffingen mit seinem dörflichen Charakter, angrenzend an Felder und Wälder. Fellbach ist durch die Bundesstraßen B14 und B29 sowie den nahegelegenen Anschluss an die Autobahnen A8 und A81 hervorragend in das regionale und überregionale Straßennetz eingebunden. Der öffentliche Nahverkehr ist durch mehrere Stadtbahnlinien U1, U9, U14 sowie die S-Bahn-Linie S2 hervorragend angebunden und garantiert schnelle Verbindungen nach Stuttgart, Waiblingen, Esslingen und Ludwigsburg. Über den Bahnhof Fellbach ist zudem der Anschluss an den Regionalverkehr gewährleistet. Zwar bildet Fellbach das wirtschaftliche, soziale und kulturelle Herz der Stadt. Schmiden besitzt jedoch ein eigenständiges liebenswertes Flair und ist weit davon entfernt, ""nur"" Wohnsiedlung zu sein.",,,disabled,,
-Baden_Württemberg,self_contained_central_heating,,5394580,n,y,https://pictures.immobilienscout24.de/listings/5b02035e-d3a3-483e-a3a1-fb609e926cfd-1929319271.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,8,7,1934,hölderlinplatz,false,160972278,,gas,n,true,n,baden_württemberg,y,7,1,248,,no_information,,85,stuttgart,70176,need_of_renovation,no_information,,,false,no_information,no_information,n,flow:0,no_information,apartment,,3,,n,,"2,active",,deutschland,top,wohnung_kauf,n,false,11,2,,001.5394580,388500,profile0,3,west,3,true,n,Hölderlinplatz,n,n,West,381801,4,Stuttgart,https://www.immobilienscout24.de/expose/160972278,2025-08-10,01:25:04,2025-08-09T13:21:57.000+02:00,Bezugsfrei: 3-Zi. nahe Hölderlinplatz in der Rosenbergstraße mit Balkon,,"Balkon, Keller, Duschbad
++ Viel Stauraum – Drei zusätzliche Abstellräume im Keller und Dachgeschoss.
+
++ Sonniger Balkon – Ideal zum Entspannen und als Erweiterung des Wohnraums.
+
++ Zentrale Lage in Bad Cannstatt – U-Bahn, Einkaufsmöglichkeiten und Grünanlagen direkt in der Nähe.
+
++ Überschaubares Hausgeld – Mit monatlich 291 €
+
+","Lage: Zentrale Citylage ermöglicht Zugang zu div. Anlaufstellen und Veranstaltungen
+Bildung und Betreuung: Familienfreundliches Wohnen mit Kindergarten und Schule in fußläufiger Entfernung
+Nahversorgung: Bequem zu Fuß in max. 5 Minuten kaufen: Supermarkt, Apotheke, Postfiliale und Bankfiliale
+Anbindung: Nächste Bushaltestelle, nächster Bahnhof sowie nächste Autobahn gut erreichbar",,,energy_required,NO_INFORMATION,97.2,1,true,,
+Baden_Württemberg,central_heating,true,eyJvcnQiOiJSZW1zZWNrIGFtIE5lY2thciIsIm9ydHN0ZWlsIjoiIiwic3RyYXNzZSI6IkJlcmxpbmVyIFN0ci4iLCJoYXVzbnVtbWVyIjoiMTkiLCJrbHNpZCI6OTY5ODQ1NywiaGF1c251bW1lcnp1c2F0eiI6IiIsInBseiI6IjcxNjg2In0%3D,9594,n,y,https://pictures.immobilienscout24.de/listings/fdab1f3e-5746-4c8f-9d52-f030bc569db9-1929317625.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,11,,1973,,false,,160972213,oil,y,true,y,baden_württemberg,y,7,3,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,93,ludwigsburg_kreis,71686,no_information,sophisticated,,false,garage,no_information,y,flow:0,no_information,apartment,,3.5,n,"2,active",true,deutschland,premium,wohnung_kauf,n,false,17,250 MBit/s,001.9594,379000,profile0,6,remseck_am_neckar,3,true,n,showqualicontactform,,n,n,Remseck_am_Neckar,4835,4,Ludwigsburg_Kreis,https://www.immobilienscout24.de/expose/160972213,2025-08-11,01:21:22,2025-08-09T13:11:41.000+02:00,"Modernisierte 3,5-Zimmer-Wohnung im 3. OG mit Aufzug, Balkon & Garage","Diese großzügige 3,5-Zimmer-Wohnung mit ca. 93 m² befindet sich im 3. OG eines gepflegten Mehrfamilienhauses aus dem Jahr 1973. Das Badezimmer ist ein echtes Highlight: deckenhoch gefliest, ausgestattet mit Bidet und randlosem WC, einer hochwertigen, eckigen Designer-Badewanne sowie einer Duschwanne. Ein maßgefertigter Waschtischunterschrank mit edler 12 mm starker Diamantglas-Waschtischplatte und Fronten mit 4 mm Spezialverglasung sowie ein passender Spiegelschrank runden den stilvollen Gesamteindruck ab. Ein weiterer Pluspunkt ist der uneinsichtige Südbalkon mit Markise, der sonnige Stunden im Freien verspricht. Zur Wohnung gehört ein TG-Stellplatz in einer abschließbaren Box mit elektrischem Tor.
+
+
+Weitere Informationen erhalten Sie in unserem Exposé, einfach eine Anfrage stellen. Ich freue mich auf Sie!",,"Aldingen ist einer von sechs Teilorten der Großen Kreisstadt Remseck am Neckar und bietet rund 8.500 Einwohnern ein Zuhause. Durch die zentrale Lage zwischen Ludwigsburg und Stuttgart profitieren Sie ebenso von urbanen Strukturen wie vom dörflichen Charme des Stadtteils.
+Kleinere Einkäufe erledigen Sie direkt bei einem Bummel durch den Ortskern, auf dem Geflügelhof Walker oder dem Hof Leutenecker, für größere Shopping-Touren zieht es Sie nach Ludwigsburg oder Stuttgart.
+Sonntags spazieren Sie mit Ihrer Familie am Neckar oder der Rems entlang, genießen die Aussicht vom Schlossberg oder schlendern durch das Regental. Abends zieht es Sie in eines der ausgezeichneten Restaurants im Ort wie das Paradiso oder Sie genießen die frische Luft bei einem Besuch im Biergarten Bootshaus.
+Auf Veranstaltungen wie der Kirbe, dem Feuerwehrfest oder dem Weihnachtsmarkt treffen Sie Menschen aus den übrigen Remsecker Stadtteilen Pattonville, Neckarrems, Neckargröningen, Hochberg und Hochdorf oder kommen mit Ihren Nachbarn ins Gespräch. 
+Nach Feierabend powern Sie sich sportlich in einem der Remsecker Vereine wie dem TV Aldingen oder dem Tennisclub aus oder treffen Ihre Freunde für ein entspanntes Glas Wein am Neckarufer. 
+Ihre Kinder besuchen eine der Schulen und Kindergärten direkt im Ort, nachmittags toben sie mit Ihren Freunden über die Wiesen rund um Aldingen oder treffen ihre Freunde im Jugendhaus.
+Einen renommierten Arbeitsplatz finden Sie in einem der namhaften Unternehmen in Ludwigsburg oder Stuttgart – beispielsweise aus der Automobilindustrie, dem Maschinenbau, der IT oder Elektrotechnik. Ins Büro fahren Sie bequem mit dem Fahrrad – bei schlechtem Wetter nutzen Sie die U-Bahn direkt ab Aldingen. Alternativ setzen Sie sich ins Auto und sind binnen wenigen Minuten auf der Bundestraße B27 oder der Autobahn A81.",390,1,energy_consumption,B,58,3,,,
+Baden_Württemberg,central_heating,,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJTY2htaWRlbmVyIFN0ci4iLCJoYXVzbnVtbWVyIjoiMjQ1Iiwia2xzaWQiOjIwNDI0MjQ0LCJoYXVzbnVtbWVyenVzYXR6IjoiIiwicGx6IjoiNzAzNzQifQ%3D%3D,16559200,n,y,https://pictures.immobilienscout24.de/listings/a55b5feb-5d2d-4a72-81c9-40f4ba3a8047-1924498883.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,12,10,1959,muckensturm,false,,159664240,gas,y,false,y,baden_württemberg,y,7,2,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,245,73.8,stuttgart,70372,refurbished,normal,,false,outside,Schmidener Stra&szlig;e,n,flow:0,Schmidener_Straße,raised_ground_floor,,3,n,"2,active",true,deutschland,top,wohnung_kauf,n,false,6,250 MBit/s,001.16158516,305000,profile1_listingtype,3,bad_cannstatt,3,true,n,,Muckensturm,n,n,Bad_Cannstatt,Bad135,3,Stuttgart,https://www.immobilienscout24.de/expose/159664240,2025-08-11,01:21:26,2025-08-09T18:50:52.000+02:00,"Stilvolle, sanierte 3-Zimmer-Hochparterre-Wohnung mit Balkon und Einbauküche in Stuttgart","Diese attraktive Hochparterre-Wohnung, die sich im 1. Stock befindet, steht ab sofort zum Verkauf. Sie steht leer und kann daher direkt nach dem Kauf selbst bezogen oder vermietet werden.
+Durch den optimalen Schnitt eignet sich die Wohnung auch besonders zur Vermietung an WGs.
+
+Ein Badezimmer und ein separates WC komplettieren die drei attraktiven Zimmer zu einer modern ausgestatteten Wohnung zum Wohlfühlen. 
+Zum Apartment gehört auch ein Balkon, auf dem es sich wunderbar vom Alltag erholen lässt. 
+Durch den zur Wohnung gehörenden Stellplatz gehört die lange Suche nach einem Parkplatz der Vergangenheit an. Anschließend können Sie Ihre Wocheneinkäufe entspannt in die bereits vorhandene Einbauküche tragen. 
+Es gibt außerdem zwei Kellerräum, die Ihnen Platz für Ihr Hab und Gut bieteten.
+
+
+Das Haus wurde 2014 umfassen saniert. Die Fassade wurde gedämmt, das Dach isoliert und neu eingedeckt. Das Treppenhaus wurde gerichtet usw.
+2020 wurde eine neue Gas-Zentralheizung eingebaut.
+Somit werden in den nächsten Jahren keine großen Sanierungen zu erwarten sein.
+
+Vereinbaren Sie gerne einen flexiblen Besichtigungstermin.","~ 3 Zimmer
+~ Balkon
+~ Einbauküche
+~ separates WC
+~ 2 Kellerräume
+~ Außenstellplatz",,360,1,energy_required,C,84.7,1,,2020,
+Baden_Württemberg,,,eyJvcnQiOiJGZWxsYmFjaCIsIm9ydHN0ZWlsIjoiIiwic3RyYXNzZSI6IlJldd9lbnN0ZWluc3RyLiIsImhhdXNudW1tZXIiOiIyMCIsImtsc2lkIjoyNDk2Mjc2MiwiaGF1c251bW1lcnp1c2F0eiI6IlwvMSIsInBseiI6IjcwNzM2In0%3D,18875692,n,y,https://pictures.immobilienscout24.de/listings/3dd75b91-d492-434d-a173-9fec07d84ae9-1929446978.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,58,,2002,,true,,160969154,no_information,y,false,n,baden_württemberg,y,9,6,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,20/1,106,rems_murr_kreis,70736,well_kept,sophisticated,,false,garage,Reu&szlig;ensteinstra&szlig;e,n,flow:0,Reußensteinstraße,maisonette,,3,n,"2,active",true,deutschland,standard,wohnung_kauf,n,false,7,1000 MBit/s,009.dcfe8115-69f7-4cff-aff3-52933ba6eaab,585000,profile1_listingtype,3,fellbach,3,true,y,,,n,n,Fellbach,160969154,5,Rems_Murr_Kreis,https://www.immobilienscout24.de/expose/160969154,2025-08-11,01:21:29,2025-08-10T12:41:52.000+02:00,Haus-in-Haus Wohnung in Fellbach-Schmiden mit riesiger Terrasse - provisionsfrei,"Bei dieser wunderschönen Immobilie handelt es sich um eine Haus-in-Haus Wohnung über drei Etagen mit 106 m² Wohnfläche, die ab November 2025 (ggf. ab Oktober) bezogen werden kann.
+Die Wohnung verfügt über einen separaten Hauseingang mit drei Treppenstufen, so dass kein Treppenhaus mit anderen Eigentümern geteilt werden muss. Nach einem kleinen Windfang gelangt man in den offenen Wohnbereich. 
+Die offene Einbauküche mit Induktionsherd und Geschirrspüler wurde 2019 eingebaut. Direkt bei der Küche befindet sich eine abgeschlossene Abstellkammer. Vom großen Wohnzimmer mit Kaminofen führt eine große Schiebetür ebenerdig auf die kleine Gartenterrasse mit Essplatz (Terrasse nicht in der Wohnfläche berücksichtigt). 
+Über das offene Treppenhaus gelangt man in das Untergeschoss und in das erste Stockwerk.
+Im Untergeschoss befindet sich ein schönes Büro oder Gästezimmer mit angrenzendem eigenem Bad mit Dusche und WC sowie ein trockener Abstellraum mit 6 qm.
+Im Obergeschoss bietet die lichtdurchflutete Empore Platz für einen Arbeitsplatz oder eine Leseecke. Von der Empore gelangt man auf der einen Seite in das große Bad, das mit Dusche, Badewanne, WC, Doppelwaschtisch, Anschluss für Waschmaschine und Trockner sowie großer Sauna alle Wünsche erfüllt. Auf der anderen Seite der Empore führt der Weg ins helle Schlafzimmer, in dem sich auch ein begehbarer Kleiderschrank befindet. 
+Aus allen drei Zimmern im Obergeschoss führen Türen auf die sehr große Terrasse mit Westsüdwestausrichtung. Die Terrasse ist mit einer Fläche von etwa 60 m² ein echtes Highlight der Wohnung (Terrasse nicht in der Wohnfläche berücksichtigt).
+In allen Wohnräumen schafft eine Fußbodenheizung eine behagliche Atmosphäre.
+Zur Wohnung gehören eine Einzelgarage mit elektrischen Garagentoröffner und Stromanschluss sowie ein großzügiger PKW-Stellplatz, die einen direkten ebenerdigen Zugang zur Gartenterrasse haben.
+Das Hausgeld enthält auch die Vorauszahlungen für Heizung und Wasser.",,,261,1,energy_consumption,B,62.2,0,,2002,
+Baden_Württemberg,central_heating,,,5394580,n,y,https://pictures.immobilienscout24.de/listings/17b1bb8a-7266-4729-a126-ac71d9fd6129-1929333534.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,5,,1994,plieningen_ortsteil,false,disabled,160973055,gas,y,true,n,baden_württemberg,n,4,5,,no_information,42,stuttgart,70599,well_kept,no_information,,false,garage,no_information,n,flow:0,no_information,ground_floor,,1,n,"2,active",false,deutschland,top,wohnung_kauf,y,false,11,,001.5394580,197000,profile0,3,plieningen_bezirk,1,true,n,,Plieningen_Ortsteil,n,n,Plieningen_Bezirk,381811,2,Stuttgart,https://www.immobilienscout24.de/expose/160973055,2025-08-11,01:21:32,2025-08-09T14:53:37.000+02:00,"Helle 1- Zimmer Wohnung mit großem Balkon und Garage - 5,5% Rendite für Kapitalanleger","Diese gepflegte 1-Zimmer-Wohnung mit Balkon befindet sich im Untergeschoss eines kleinen Mehrfamilienhauses mit insgesamt64 Wohneinheiten in ruhiger Wohnlage von Plieningen. 
+Die Wohnung verfügt über eine Wohnfläche von ca. 42 m² und eignet sich ideal für Singles, Pendler oder Studenten.
+Der gut geschnittene Wohn-/Schlafbereich bietet vielseitige Einrichtungsmöglichkeiten und ein angenehmes Wohngefühl. Die Einbauküche ist in einem separaten Raum, sodass Sie hier die Tür auch mal schließen können.
+Das Badezimmer ist funktional gestaltet und verfügt über Badewanne, Waschbecken und WC. 
+Große Fenster sorgen für viel Tageslicht und eine freundliche Atmosphäre in der gesamten Wohnung und vom Wohnzimmer aus gelangen Sie zum großen Balkon.
+Ein rundum attraktives Angebot für Kapitalanleger - besonders die Nähe zur Uni Hohenheim, zur Autobahn und zum Flughafen sind hier hervorzuhaben.",,"Die Wohnung befindet sich in Stuttgart-Plieningen, einem beliebten und grünen Stadtteil im Süden der Landeshauptstadt. Plieningen zeichnet sich durch seine dörflich geprägte Struktur, die Nähe zur Natur sowie eine hervorragende Verkehrsanbindung aus.
+Das Wohnumfeld ist ruhig und familienfreundlich, mit gepflegten Wohnhäusern, kleinen Parks und einer sehr guten Nachbarschaft. Einkaufsmöglichkeiten, Kindergärten, Schulen sowie Ärzte und Apotheken sind schnell erreichbar.
+Die Universität Hohenheim mit ihrem eindrucksvollen Schlosspark liegt ganz in der Nähe - ebenso wie die Filderklinik und das Max-Planck-Institut. Auch die Messe Stuttgart und der Flughafen sind in wenigen Minuten erreichbar.
+Die Anbindung an den öffentlichen Nahverkehr ist sehr gut: Über die U-Bahnlinie U3 ist man schnell in der Innenstadt, während Buslinien direkte Verbindungen in angrenzende Stadtteile bieten. Für Autofahrer besteht über die B27 ein schneller Anschluss an die A8 und das überregionale Straßennetz.
+Die Nähe zu Wiesen, Feldern und dem Naturschutzgebiet Echterdinger Eichwald macht Plieningen besonders attraktiv für Naturfreunde, Spaziergänger und Radfahrer.",240,1,energy_required,D,130,0,,,
+Baden_Württemberg,gas_heating,,,868294,n,n,https://pictures.immobilienscout24.de/listings/9fd6715f-0e28-4e98-a1d5-0e2e59af943f-1929364544.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,14,5,1889,heslach,false,disabled,160975159,gas,y,false,y,baden_württemberg,y,6,1,,no_information,77,stuttgart,70199,refurbished,normal,,false,no_information,no_information,n,flow:0,no_information,no_information,,3,n,"2,active",,deutschland,top,wohnung_kauf,n,false,11,,001.868294,299500,profile0,5,süd,3,true,n,,Heslach,n,n,Süd,Okw001512,3,Stuttgart,https://www.immobilienscout24.de/expose/160975159,2025-08-11,01:21:36,2025-08-09T18:33:41.000+02:00,Dachgeschoss-Perle in Stuttgart-Süd: renditestark & sofort frei!,"Willkommen im Herzen von Stuttgart-Süd wir präsentieren Ihnen eine besondere Gelegenheit zum Erwerb einer renditestarken Dachgeschosswohnung in einem stilvollen, denkmalgeschützten Mehrfamilienhaus aus dem Jahr 1889. Die Wohnung wurde erst 2005  ausgebaut und vereint historischen Charme mit modernem Wohnkomfort.
+
+Auf rund 77 m² Wohnfläche bietet diese 3-Zimmer-Wohnung ein helles, offenes Raumkonzept mit gemütlichem Dachcharakter, gut geschnittenen Zimmern und modernen Ausstattungsdetails.
+
+Die Wohnung wurde in den letzten Jahren erfolgreich als WG-Wohnung vermietet und erwirtschaftete jährliche Nettomieteinnahmen von rund 16.000 € eine ausgezeichnete Kapitalanlage mit solider Rendite. Ab September 2025 ist die Wohnung bezugsfrei und kann sowohl zur Eigennutzung als auch zur Neuvermietung genutzt werden.
+
+
+Besonderheiten für Kapitalanleger:
+
+ Steuervorteile durch Denkmalschutz-Abschreibung (AfA)
+
+Hohe Mietnachfrage durch zentrale Lage und WG-Eignung
+
+Gute Wertentwicklungsperspektive in wachstumsstarkem Stadtteil
+
+Attraktive Rendite durch bisherige Nettomieteinnahmen von ca. 16.000 €","Dachgeschosswohnung mit individueller Raumaufteilung
+
+Hochwertiger Dachausbau von 2005
+
+Helle Wohnräume durch Dachflächenfenster
+
+Moderne Küche 
+
+Gepflegtes Badezimmer
+
+Gasetagenheizung
+
+Kein Aufzug (5. OG)
+
+Denkmalgeschütztes Gebäude (AfA nach § 7i EStG möglich
+
+Citynah
+
+Guter Anschluss an die Öffis
+
+Keller
+
+WG Vermietung","Die Wohnung befindet sich in begehrter Wohnlage von Stuttgart-Süd, nur wenige Minuten von der Innenstadt entfernt. Die Anbindung an den ÖPNV ist hervorragend:
+
+U-Bahnlinien U1, U14 und U21 in wenigen Gehminuten erreichbar
+
+Zahlreiche Einzelhandelsgeschäfte, Supermärkte, Cafés und Restaurants befinden sich in unmittelbarer Umgebung
+
+Naherholung im Marienplatz, Wielandshöhe oder dem Erwin-Schöttle-Platz
+
+Die Lage vereint urbanes Lebensgefühl mit dem historischen Flair eines gewachsenen Stuttgarter Stadtteils.",220,,,,,5,,2005,333
+Baden_Württemberg,self_contained_central_heating,,,5394580,n,y,https://pictures.immobilienscout24.de/listings/5b02035e-d3a3-483e-a3a1-fb609e926cfd-1929319271.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,8,7,1934,hölderlinplatz,false,disabled,160972278,gas,n,true,n,baden_württemberg,y,7,1,,no_information,85,stuttgart,70176,need_of_renovation,no_information,,false,no_information,no_information,n,flow:0,no_information,apartment,,3,n,"2,active",,deutschland,top,wohnung_kauf,n,false,11,,001.5394580,388500,profile0,3,west,3,true,n,,Hölderlinplatz,n,n,West,381801,4,Stuttgart,https://www.immobilienscout24.de/expose/160972278,2025-08-11,01:21:39,2025-08-09T13:21:57.000+02:00,Bezugsfrei: 3-Zi. nahe Hölderlinplatz in der Rosenbergstraße mit Balkon,,"Balkon, Keller, Duschbad
 
 Bemerkungen:
 - großzügiger Balkon
@@ -298,51 +328,64 @@ Bemerkungen:
 
 - Gas-Etagenheizung","Die Wohnung liegt im ruhigen Teil der Rosenbergstraße, in ein paar Schritten erreichen Sie den Hölderlinplatz mit seinen zahlreichen Geschäften und einem breiten kulinarischen Angebot - genießen Sie den Westen hier in vollen Zügen!
 Infrastruktur (im Umkreis von 5 km):
-Apotheke, Lebensmittel-Discount, Allgemeinmediziner, Kindergarten, Grundschule, Hauptschule, Realschule, Gymnasium, Gesamtschule, Öffentliche Verkehrsmittel",,,disabled,,
-Baden_Württemberg,district_heating,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJLb3JuYmVyZ3N0ci4iLCJoYXVzbnVtbWVyIjoiMzkiLCJrbHNpZCI6NzcwODI5OSwiaGF1c251bW1lcnp1c2F0eiI6IiIsInBseiI6IjcwMTc2In0%3D,189949,n,y,https://pictures.immobilienscout24.de/listings/05eeb3db-565e-466a-87ca-77d75cb75b6b-1929197370.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,23,,1956,rosenberg,false,160963702,,district_heating,y,false,y,baden_württemberg,y,9,2,382.42,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,energy_required,122,stuttgart,70176,well_kept,no_information,,E,false,no_information,no_information,n,flow:1,no_information,roof_storey,,4.5,141,n,,"2,active",true,deutschland,premium,wohnung_kauf,n,false,19,6,250 MBit/s,001.189949,650000,profile0,,west,4,true,n,Rosenberg,n,n,West,KBS39,6,Stuttgart,https://www.immobilienscout24.de/expose/160963702,2025-08-10,01:25:07,2025-08-08T18:06:53.000+02:00,Über den Dächern der Stadt: Außergewöhnliche DG-Wohnung mit Terrasse und Blick über Stuttgart,"Über den Dächern der Stadt:
+Apotheke, Lebensmittel-Discount, Allgemeinmediziner, Kindergarten, Grundschule, Hauptschule, Realschule, Gymnasium, Gesamtschule, Öffentliche Verkehrsmittel",248,,,,,2,,,
+Baden_Württemberg,central_heating,true,,5394580,n,y,https://pictures.immobilienscout24.de/listings/c9706d9c-0349-4b77-b4bf-f3097551dff5-1929495224.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,18,,1978,sulzgries,false,disabled,160984964,gas,y,true,n,baden_württemberg,y,8,3,,no_information,98,esslingen_kreis,73733,well_kept,no_information,,false,underground_garage,no_information,y,flow:0,no_information,apartment,,4,n,"2,active",false,deutschland,premium,wohnung_kauf,n,false,11,,001.5394580,429000,profile0,6,esslingen_am_neckar,4,true,n,,Sulzgries,n,n,Esslingen_am_Neckar,381603,4,Esslingen_Kreis,https://www.immobilienscout24.de/expose/160984964,2025-08-11,01:21:43,2025-08-10T17:44:41.000+02:00,4 1/2 Zimmer mit Blick ins Grüne,"Sie bewohnen eine helle und modern aufgeteilte 4 Zimmer Wohnung mit Ausblick ins Grüne. 
+Die Wohnung unterteilt sich in einen riesigen Wohnbereich, dem übergehenden Essbereich und einen weiter offen zugänglichen Zimmer, welches optimal als Leseecke, Kinderzimmer oder Home-Office Arbeitsplatz genutzt werden kann. Direkt neben dem Esszimmer befindet sich die Küche.
+Über den Flur sind Schlafzimmer, sowie ein Kinderzimmer, welches alternativ auch als Büro genutzt werden könnte erreichbar. Das Badezimmer besticht durch 2 Tageslichtfenster und einer Badewanne. Das WC befindet sich in einem separaten Raum.
 
-Diese außergewöhnliche 1998 ausgebaute DG-Wohnung in bester Lage von Stuttgart-West bietet Ihnen 4,5 Zimmer auf einer großzügigen Wohnfläche von ca. 122 m² im 6. OG mit einem atemberaubenden Blick über die Stadt.
+Der mit neuen Terrassenplatten gestaltete und überdachte Balkon mit toller Aussicht ins Grüne lädt zum entspannten Frühstück, Kaffeeklatsch oder Feierabendausklang ein. 
+Die Lage ist bestens geeignet für Singles, Paare oder Familie mit Kindern, denn sämtliche Bushaltestellen sind zu Fuß in wenigen Minuten zu erreichen.","Balkon, Keller, Fahrstuhl, Einbauküche, Gäste-WC, Laminat, Fliesen
 
-Die Highlights dieser besonderen Wohnung:
+Bemerkungen:
++ Tiefgaragenstellplatz
++ Aufzug
++ Balkon (Terrassenplatten in 2023 erneuert)
++ elektr. Markise
++ Kellerabteil mit Steckdose
++ Abstellraum in der Wohnung
++ Moderne Kunststofffenster (Großteil davon erst in 2023 erneuert)
++ Elektrischer Rollo am großen Wohnzimmerfenster
++ Offener Wohn- und Essbereich
++ Einbauküche inkl. folgender elektr. Geräte
+  - Backofen, Einbaumikrowelle, Ceranfeld, Dunstabzugshaube, Geschirrspüler, Großer Einbaukühlschrank, separater Gefriereinbauschrank
 
-+ Geräumige und helle Räume
-+ großartiger Blick von der Dachterrasse zum Fernsehturm
-+ Einbauküche mit Miele Geräten, perfekt für alle Hobbyköche
-+ Großes Badezimmer mit Tageslicht, Duschkabine und Badewanne
-+ Durchdachte Raumaufteilung
+Gemeinschaftlich nutzbar im Gebäude:
++ Trockenraum
++ Fahrradabstellraum","Super Lage in Esslingen-Sulzgries, ruhiges Wohngebiet und direkt an der Natur.
+Lange Spaziergänge, Mountainbike-Strecken oder Jogging-Strecken durch den Wald oder die Weinberge sorgen für Erholung pur.
 
-Diese Wohnung verbindet Komfort mit einer außergewöhnlichen Aussicht und ist ideal für diejenigen, die das urbane Leben in vollen Zügen genießen und dennoch ruhig wohnen möchten. Die Nähe zu öffentlichen Verkehrsmitteln und Einkaufsmöglichkeiten jeder Art macht diese Immobilie zu einer hervorragenden Wahl für Ihr neues Zuhause.","+ Blick über die Stadt Richtung Fernsehturm
-+ Dachterrasse nach Süden ausgerichtet
-+ großes Tageslichtbadezimmer mit Wanne
-+ ruhige und dennoch zentrale Lage
-+ ca. 120 Meter zur U-Bahnhaltestelle Hölderlinplatz
-+ Fernwärmeheizung
-+ Gäste-WC
-+ Miele Geräte 
-+ Speisekammer 
-+ großes Kellerabteil
-+ Kehrwochen- und Winterdienst
-+ Abstellkammer","Zentrale Lage nahe Hölderlinplatz im begehrten Stadtteil Stuttgart-West.
+In unmittelbarer Nähe befindet sich der Ortskern mit allen Geschäften des täglichen Bedarfs: Bank, Metzger, Bäcker, Schule, Optiker, Gaststätten, Lebensmittelmarkt, Ärzte und Apotheke. Grundschulde, Kindergarten, Spielplatz oder Kindertagesstätte sind in ca. 500m Entfernung fußläufig sehr schnell erreichbar.
 
-+ Nur wenige Minuten vom Stadtzentrum entfernt, genießen Sie die Vorzüge der Stadt, ohne auf Ruhe verzichten zu müssen.
-+ Die hervorragende Anbindung an das öffentliche Verkehrsnetz gewährleistet eine schnelle und unkomplizierte Erreichbarkeit aller wichtigen Ziele in Stuttgart und Umgebung.
-+ In unmittelbarer Nähe finden Sie eine Vielzahl an Einkaufsmöglichkeiten, Restaurants, kleinen Boutiquen, Cafés und kulturellen Einrichtungen. 
-+ Familien profitieren von zahlreichen Schulen und Kindergärten in der Nähe.",true,,,,showqualicontactform
-Baden_Württemberg,gas_heating,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJPYmVybml0enN0ci4iLCJoYXVzbnVtbWVyIjoiMiIsImtsc2lkIjoxODU4MTE2OSwiaGF1c251bW1lcnp1c2F0eiI6IiIsInBseiI6IjcwMTkwIn0%3D,20696745,n,n,https://pictures.immobilienscout24.de/listings/aa31c333-3dcf-438f-b815-cdb3117e8a7e-1929271197.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,9,,1967,ostheim,true,160969406,,gas,n,false,n,baden_württemberg,y,7,2,,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,2,,75,stuttgart,70190,mint_condition,normal,,,false,no_information,Obernitzstra&szlig;e,n,flow:0,Obernitzstraße,apartment,,3,,n,,"2,active",true,deutschland,standard,wohnung_kauf,n,false,7,2,250 MBit/s,009.4135e9e7-5a13-4243-bf2c-9fbc2b72f44c,350000,profile1_listingtype,,ost,3,true,n,Ostheim,n,n,Ost,160969406,3,Stuttgart,https://www.immobilienscout24.de/expose/160969406,2025-08-10,01:25:11,2025-08-09T09:08:02.000+02:00,"Obernitzstraße 2, 70190 Stuttgart","Attraktive 75 m² Wohnung in Stuttgart-Ost – zentral, modern und familienfreundlich
-Beschreibung:
-Willkommen in Ihrem neuen Zuhause! Diese wunderschöne 75 m² Wohnung in Stuttgart-Ost. Die Wohnung befindet sich in einem gepflegten Gebäude und ist sofort bezugsfertig – perfekt für Paare, kleine Familien oder Singles.
+Außerdem erreichen Sie in Kürze ein Naherholungsgebiet, 800m bis zu den Weinbergen und in der nähe der Katharinenlinde.
 
-Ausstattung:
-•  Größe: 75 m²
-•  Raumaufteilung: Ein gemütliches Schlafzimmer, ein großzügiges Wohnzimmer und ein weiteres Zimmer, das sich ideal als Kinderzimmer oder Hobbyraum eignet
-•  Lichtverhältnisse: Viele große Fenster sorgen für eine hervorragende Belichtung und eine einladende Atmosphäre
-•  Zustand: Sehr gut, keine großen Renovierungen nötig – einziehen und wohlfühlen!
+Zudem überzeugt die Lage durch eine ausgezeichnete Anbindung an den öffentlichen Nahverkehr.
+Busanbindung 10 Minuten zur Altstadt Esslingen
+Busanbindung 14 Minuten zum Bahnhof Esslingen
+Infrastruktur (im Umkreis von 5 km):
+Apotheke, Lebensmittel-Discount, Allgemeinmediziner, Kindergarten, Grundschule, Hauptschule, Realschule, Gymnasium, Gesamtschule, Öffentliche Verkehrsmittel",565,1,energy_consumption,E,151.3,2,,,
+Baden_Württemberg,,,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJTb21iYXJ0c3RyLiIsImhhdXNudW1tZXIiOiIzNiIsImtsc2lkIjo2MDU5ODEzLCJoYXVzbnVtbWVyenVzYXR6IjoiIiwicGx6IjoiNzA1NjUifQ%3D%3D,944285,n,y,https://pictures.immobilienscout24.de/listings/ef6c28f3-453a-4e5d-8bd1-8a14de86cbaf-1928032575.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,14,15,,rohr,false,,160887599,no_information,n,false,y,baden_württemberg,y,7,,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,80,stuttgart,70565,no_information,normal,,false,no_information,no_information,n,flow:0,no_information,apartment,,3,n,"2,active",true,deutschland,standard,wohnung_kauf,n,false,6,100 MBit/s,001.944285,390000,profile1_listingtype,2,vaihingen,3,true,y,,Rohr,n,n,Vaihingen,160887599,3,Stuttgart,https://www.immobilienscout24.de/expose/160887599,2025-08-11,01:21:47,2025-08-09T15:45:43.000+02:00,- Sofort frei - 3-Zi.-Wohnung mit sonnigem Balkon in Stuttgart-Rohr - sofort frei -,"3 Zimmer-Eigentumswohnung im 1. Obergeschoss
 
-Lage:
-Die Wohnung liegt in Stuttgart-Ost, direkt in der Nähe des  Parks, der einen schnellen Zugang ins Stadtzentrum ermöglicht. Nur wenige Schritte entfernt finden Sie zahlreiche Restaurants, Cafés und Einkaufsmöglichkeiten, die keine Wünsche offenlassen. Die U-Bahn-Station ist nur 1 Minute entfernt, was für eine exzellente Anbindung an den öffentlichen Nahverkehr sorgt. Familien und Freizeitbegeisterte profitieren von der Nähe zu beliebten Freibädern wie dem Badberg oder Leuze, die in wenigen Minuten erreichbar sind.
-Besonderheiten:
-•  Zentrale Lage mit urbanem Flair und gleichzeitiger Nähe zur Natur
-•  Perfekte Infrastruktur mit Restaurants, Geschäften und Freizeitmöglichkeiten vor der Haustür
-•  Helle, lichtdurchflutete Räume durch großzügige Fenster
-•  Optimale Verkehrsanbindung dank U-Bahn in unmittelbarer Nähe
-Diese Wohnung ist ideal für alle, die das Stadtleben lieben, aber dennoch Wert auf eine grüne und familienfreundliche Umgebung legen.",,,,,,,
+ca. 80 qm Wohnfläche
+
+sonniger schöner Balkon
+
+- sofort frei -",,,350,,,,,1,,,
+Baden_Württemberg,district_heating,,eyJvcnQiOiJTdHV0dGdhcnQiLCJvcnRzdGVpbCI6IiIsInN0cmFzc2UiOiJQZWxpa2Fuc3RyLiIsImhhdXNudW1tZXIiOiIzNSIsImtsc2lkIjoxNzA4NTI0NCwiaGF1c251bW1lcnp1c2F0eiI6IiIsInBseiI6IjcwMzc4In0%3D,16985937,n,y,https://pictures.immobilienscout24.de/listings/f933e643-2168-40bc-a422-38d21b532ad6-1929517042.jpg/ORIG/resize/118x118%3E/extent/118x118/format/webp/quality/73,18,,1970,neugereut,true,,108841274,district_heating,y,false,n,baden_württemberg,y,9,2,https://www.telekom.de/festnetz/tarife-und-optionen/internet-dsl,no_information,136,stuttgart,70378,refurbished,sophisticated,,false,garage,no_information,n,flow:0,no_information,apartment,,5,n,"2,active",true,deutschland,top,wohnung_kauf,y,false,7,1000 MBit/s,009.8691db9e-117d-480f-930e-ab1586053d8b,579000,profile1_listingtype,3,mühlhausen_bezirk,5,true,y,,Neugereut,n,n,Mühlhausen_Bezirk,bd8b8335-41d4-4c6a-9de5-b332426c3211,6,Stuttgart,https://www.immobilienscout24.de/expose/108841274,2025-08-11,01:21:51,2025-08-10T16:52:20.000+02:00,"Exklusive, sanierte 5,5-Zimmer-Wohnung über zwei Etagen","Erfüllen Sie sich Ihren Wohntraum – Exklusive Maisonettewohnung mit zwei Terrassen in Stuttgart-Neugereut
+
+Diese einzigartige Maisonettewohnung befindet sich in ruhiger Lage (Spielstraße) von Stuttgart-Neugereut und überzeugt mit zwei großzügigen Terrassen.
+
+Die Wohnung liegt im 2. Stock eines gepflegten Mehrfamilienhauses. Beim Betreten erwartet Sie ein heller, weitläufiger Wohn- und Essbereich, der ein angenehmes Wohnambiente schafft. Auf dieser Ebene befinden sich zudem eine Terrasse, ein Gäste-WC sowie die voll ausgestattete Küche, die bereits im Kaufpreis enthalten ist.
+
+Über eine elegante Wendeltreppe gelangen Sie in die zweite Wohnebene. Hier stehen Ihnen vier vielseitig nutzbare Schlafräume zur Verfügung, die sich ideal als Gäste- oder Arbeitszimmer eignen. Das moderne Badezimmer überzeugt mit einer ebenerdigen Dusche, hochwertiger Ausstattung und angenehmer Fußbodenheizung im Bad. Ein besonderes Highlight der oberen Etage ist die beeindruckende Deckenhöhe, die das Wohngefühl noch großzügiger macht.
+
+Die gesamte Wohnung wurde 2015 umfassend renoviert, inklusive der Erneuerung aller Elektro- und Wasserleitungen.
+
+Zusätzliche Highlights:
+	•	Zwei Kellerräume bieten praktischen Stauraum.
+	•	Ein abschließbarer Tiefgaragenstellplatz kann für 20.000 € zusätzlich erworben werden.
+	•	Die Immobilie ist derzeit für 1.970 € Kaltmiete vermietet und eignet sich daher auch hervorragend als Kapitalanlage.
+
+Lage & Infrastruktur:
+Der Stadtteil Neugereut bietet eine ausgezeichnete Infrastruktur mit zahlreichen Einkaufsmöglichkeiten, Schulen, Ärzten und Sporteinrichtungen in unmittelbarer Nähe. Die U-Bahn-Station (U2/U19) ist in nur 4 Minuten zu Fuß erreichbar und gewährleistet eine optimale Anbindung an die Stuttgarter Innenstadt.
+
+Vereinbaren Sie noch heute einen Besichtigungstermin und lassen Sie sich von dieser außergewöhnlichen Wohnung begeistern!",,,,1,,,,2,,2015,
