@@ -67,3 +67,4 @@ https://eu-central-1.run.claw.cloud/ (5$ monthly fee free)
 7. fix json output
 https://github.com/mangiucugna/json_repair
 8. add DiffMem to enhence recommendation
+9. add LLM SEO STS for recommendation[https://github.com/aounon/llm-rank-optimizer]
