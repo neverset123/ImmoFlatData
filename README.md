@@ -26,7 +26,8 @@ http_proxy=  python script/publisher.py
 1. go to Preference Tab
 2. input your preference text
 3. exclusive recommendation is created after some minutes
-
+#### user input board
+data could be backed up with https://github.com/luismedel/nbagent.git
 
 ## Misc
 scraping discord: https://discord.com/channels/737009125862408274/774298515123208233/1331328539785429055
