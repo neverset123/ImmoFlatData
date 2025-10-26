@@ -70,3 +70,4 @@ https://github.com/mangiucugna/json_repair
 8. add DiffMem to enhence recommendation
 9. add LLM SEO STS for recommendation[https://github.com/aounon/llm-rank-optimizer]
 10. build RAG for pdf with pageIndex [https://github.com/VectifyAI/PageIndex.git]
+11. compression with Memvid [https://github.com/Olow304/memvid]
