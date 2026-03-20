@@ -72,11 +72,11 @@ def scraping():
                         expose_results = get_request(sub_url)
                         expose_sections = expose_results.get('sections', [])
                         expose_dict = expose_results.get('adTargetingParameters', {})
-                        online_since = [section.get('onlineSince', '') for section in expose_sections if section.get('title') == 'Plus Mitglieder wissen mehr!'][0]
+                        online_since = ([section.get('onlineSince', '') for section in expose_sections if section.get('title') == 'Plus Mitglieder wissen mehr!'] or [''])[0]
                         title = expose_titles[index]
-                        description = [section.get('text', '') for section in expose_sections if section.get('title') == 'Objektbeschreibung'][0]
-                        equipments = [section.get('text', '') for section in expose_sections if section.get('title') == 'Ausstattung'][0]
-                        locations = [section.get('text', '') for section in expose_sections if section.get('title') == 'Lage'][0]
+                        description = ([section.get('text', '') for section in expose_sections if section.get('title') == 'Objektbeschreibung'] or [''])[0]
+                        equipments = ([section.get('text', '') for section in expose_sections if section.get('title') == 'Ausstattung'] or [''])[0]
+                        locations = ([section.get('text', '') for section in expose_sections if section.get('title') == 'Lage'] or [''])[0]
                         expose_dict.update({
                             "url": sub_url,
                             "extract_date": datetime.now().strftime("%Y-%m-%d"),
