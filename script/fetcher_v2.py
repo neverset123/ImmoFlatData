@@ -1,13 +1,8 @@
-import json
-import pickle
 from datetime import datetime
 import pandas as pd
-import re
 from config import configs
 import logging
-import os
 import requests
-import time
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 def cal_stats(df: pd.DataFrame, config: dict):
@@ -76,15 +71,13 @@ def scraping():
                         # save_all_images(expose_id)
                         expose_results = get_request(sub_url)
                         expose_sections = expose_results.get('sections', [])
-
-                        expose_json = expose_results.get('adTargetingParameters', {})
-                        online_since = None
+                        expose_dict = expose_results.get('adTargetingParameters', {})
+                        online_since = [section.get('onlineSince', '') for section in expose_sections if section.get('title') == 'Plus Mitglieder wissen mehr!'][0]
                         title = expose_titles[index]
-                        description = [section.get('text', '') for section in expose_sections if section.get('title') == 'Objektbeschreibung']
-                        equipments = [section.get('text', '') for section in expose_sections if section.get('title') == 'Ausstattung']
-                        locations = [section.get('text', '') for section in expose_sections if section.get('title') == 'Lage']
-
-                        expose_json.update({
+                        description = [section.get('text', '') for section in expose_sections if section.get('title') == 'Objektbeschreibung'][0]
+                        equipments = [section.get('text', '') for section in expose_sections if section.get('title') == 'Ausstattung'][0]
+                        locations = [section.get('text', '') for section in expose_sections if section.get('title') == 'Lage'][0]
+                        expose_dict.update({
                             "url": sub_url,
                             "extract_date": datetime.now().strftime("%Y-%m-%d"),
                             "extract_time": datetime.now().strftime("%H:%M:%S"),
@@ -94,8 +87,7 @@ def scraping():
                             "equipments": equipments,
                             "locations": locations
                         })
-
-                        df_expose = pd.DataFrame([expose_json])
+                        df_expose = pd.DataFrame([expose_dict])
                         df_city = pd.concat([df_city, df_expose], ignore_index=True)
 
             df_city.drop_duplicates(subset="url", inplace=True, keep="last")
