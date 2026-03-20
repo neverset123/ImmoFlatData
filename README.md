@@ -17,7 +17,6 @@ http_proxy=  python script/fetcher.py
 http_proxy=  python script/embedder.py
 http_proxy=  python script/publisher.py
 ```
-
 ### Visualize
 #### Backend Data
 [Flat Viewer](https://flatgithub.com/neverset123/ImmoFlatData)
