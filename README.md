@@ -34,12 +34,13 @@ scraping discord: https://discord.com/channels/737009125862408274/77429851512320
 https://github.com/lavague-ai/LaVague
 https://www.youtube.com/watch?v=QxHE4af5BQE
 https://github.com/jina-ai/reader
-
+https://github.com/orangecoding/fredy/blob/master/reverse-engineered-immoscout.md
 
 ```
 docker build --network host -f trigger/Dockerfile -t neverset/immoagent:latest .
 docker run --network host -e GITHUB_TOKEN= neverset/immoagent:latest 
 ```
+search with script\fyi.py
 
 1. fix commiter user
 bash test.sh
