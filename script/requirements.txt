@@ -2,7 +2,7 @@ openpyxl
 pandas
 # selenium
 # seleniumbase
-yaml
+PyYAML
 notion-client
 openai
 lancedb
