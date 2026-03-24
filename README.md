@@ -7,7 +7,7 @@ The LLM-empowered RecSys provides personalize property suggestions by analyzing 
 - **Data Fetching**: Fetches real estate data from multiple sources, such as APIs or web scraping. Transforms complex nested JSON or XML data into a simplified flat structure.
 - **Flat Data Structure**: Outputs data in a tabular format (e.g., CSV, JSON, or database-friendly format).
 - **merchandising strategies**: select and promote facets with deep learning
-- **Personalized Recommendation**: individual investment recommandation in terms of real estate property
+- **Personalized Recommendation**: individual investment recommandation based on goal of generating user profiles that improve an LLM itself at the recommendation task
 
 ### Installation
 Python 3.10+
@@ -71,3 +71,4 @@ https://github.com/mangiucugna/json_repair
 9. add LLM SEO STS for recommendation[https://github.com/aounon/llm-rank-optimizer]
 10. build RAG for pdf with pageIndex [https://github.com/VectifyAI/PageIndex.git]
 11. compression with Memvid [https://github.com/Olow304/memvid]
+12. current rec sys is based on LLM-as-encoders, there is other recommendation stream called  LLM-as-text-generators 
