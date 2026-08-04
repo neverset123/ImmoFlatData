@@ -73,3 +73,4 @@ https://github.com/mangiucugna/json_repair
 11. compression with Memvid [https://github.com/Olow304/memvid]
 12. current rec sys is based on LLM-as-encoders, there is other recommendation stream called  LLM-as-text-generators
 13. tiktok stil frontend: https://github.com/IsaacGemal/wikitok
+14. https://github.com/Zero3141/WgGesuchtAPI
