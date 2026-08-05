@@ -42,7 +42,7 @@ docker run --network host -e GITHUB_TOKEN= neverset/immoagent:latest
 search with script\fyi.py
 
 1. fix commiter user
-bash test.sh
+bash update_committer.sh
 git push --force --tags origin 'refs/heads/main'
 
 2. publish 
@@ -72,5 +72,4 @@ https://github.com/mangiucugna/json_repair
 10. build RAG for pdf with pageIndex [https://github.com/VectifyAI/PageIndex.git]
 11. compression with Memvid [https://github.com/Olow304/memvid]
 12. current rec sys is based on LLM-as-encoders, there is other recommendation stream called  LLM-as-text-generators
-13. tiktok stil frontend: https://github.com/IsaacGemal/wikitok
 14. https://github.com/Zero3141/WgGesuchtAPI

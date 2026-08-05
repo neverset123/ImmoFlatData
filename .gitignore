@@ -4,3 +4,5 @@ script/__pycache__/
 others/
 .fyi/
 .env
+.omc
+node_modules/

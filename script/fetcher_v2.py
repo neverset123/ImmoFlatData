@@ -74,6 +74,7 @@ def scraping():
                         expose_dict = expose_results.get('adTargetingParameters', {})
                         online_since = ([section.get('onlineSince', '') for section in expose_sections if section.get('title') == 'Plus Mitglieder wissen mehr!'] or [''])[0]
                         title = expose_titles[index]
+                        obj_picture = expose_pics[index][0] if expose_pics[index] else ""
                         description = ([section.get('text', '') for section in expose_sections if section.get('title') == 'Objektbeschreibung'] or [''])[0]
                         equipments = ([section.get('text', '') for section in expose_sections if section.get('title') == 'Ausstattung'] or [''])[0]
                         locations = ([section.get('text', '') for section in expose_sections if section.get('title') == 'Lage'] or [''])[0]
@@ -83,6 +84,7 @@ def scraping():
                             "extract_time": datetime.now().strftime("%H:%M:%S"),
                             "online_since": online_since,
                             "title": title,
+                            "obj_picture": obj_picture,
                             "description": description,
                             "equipments": equipments,
                             "locations": locations
