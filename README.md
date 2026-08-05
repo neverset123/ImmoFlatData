@@ -43,7 +43,6 @@ search with script\fyi.py
 
 1. fix commiter user
 bash update_committer.sh
-git push --force --tags origin 'refs/heads/main'
 
 2. publish 
 https://blog.cloudboost.io/how-to-build-a-notion-web-app-with-almost-no-code-for-free-5d7c460e946d

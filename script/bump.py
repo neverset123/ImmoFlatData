@@ -38,7 +38,7 @@ import requests
 # ---------------------------------------------------------------------------
 
 # Fallback offer IDs used when none are given on the command line.
-DEFAULT_OFFER_IDS = ['12061878', '8986669']
+DEFAULT_OFFER_IDS = ['9403396', '8986669']
 
 # Where the session (account) data is cached.
 ACCOUNT_FILE = 'account.json'
