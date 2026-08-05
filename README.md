@@ -17,7 +17,7 @@ http_proxy=  python script/fetcher.py
 http_proxy=  python script/embedder.py
 http_proxy=  python script/publisher.py
 ```
-### Visualize
+### Visualization
 #### Backend Data
 [Flat Viewer](https://flatgithub.com/neverset123/ImmoFlatData)
 #### Frontend UI
@@ -64,11 +64,10 @@ https://github.com/NoahCardoza/CaptchaHarvester?tab=readme-ov-file
 
 6. deployment platform
 https://eu-central-1.run.claw.cloud/ (5$ monthly fee free)
-7. fix json output
-https://github.com/mangiucugna/json_repair
-8. add DiffMem to enhence recommendation
-9. add LLM SEO STS for recommendation[https://github.com/aounon/llm-rank-optimizer]
-10. build RAG for pdf with pageIndex [https://github.com/VectifyAI/PageIndex.git]
-11. compression with Memvid [https://github.com/Olow304/memvid]
-12. current rec sys is based on LLM-as-encoders, there is other recommendation stream called  LLM-as-text-generators
-14. https://github.com/Zero3141/WgGesuchtAPI
+
+7. add DiffMem to enhence recommendation
+8. add LLM SEO STS for recommendation[https://github.com/aounon/llm-rank-optimizer]
+9. build RAG for pdf with pageIndex [https://github.com/VectifyAI/PageIndex.git]
+10. compression with Memvid [https://github.com/Olow304/memvid]
+11. current rec sys is based on LLM-as-encoders, there is other recommendation stream called  LLM-as-text-generators
+12. https://github.com/Zero3141/WgGesuchtAPI
